@@ -41,7 +41,7 @@
 .swiper-slider-hero .swiper-container .swiper-button-prev:hover,
 .swiper-slider-hero .swiper-container .swiper-button-next:hover,
 .ribbon.ribbon-primary span {
-    background-color: #ff6a00 !important;
+    background-color: #ff6a03 !important;
 }
 
 .text-primary,
@@ -100,7 +100,7 @@
 .dropdown-primary .dropdown-menu .dropdown-item:focus,
 .candidate-list .name:hover,
 .company-list .name:hover {
-    color: #ff6a00 !important;
+    color: #ff6a03 !important;
 }
 
 .btn-primary,
@@ -142,7 +142,7 @@
 .flatpickr-day.selected:hover,
 .swiper-slider-hero .swiper-container .swiper-button-prev:hover,
 .swiper-slider-hero .swiper-container .swiper-button-next:hover {
-    border-color: #ff6a00 !important;
+    border-color: #ff6a03 !important;
 }
 
 .btn-primary,
@@ -192,7 +192,7 @@ a.text-primary:focus {
 }
 
 .social-icon li a:hover .fea-social {
-    fill: #ff6a00;
+    fill: #ff6a03;
 }
 
 .bg-overlay-gradient {
@@ -200,11 +200,11 @@ a.text-primary:focus {
 }
 
 .bg-overlay-gradient2 {
-    background-image: linear-gradient(90deg, #2eca8b, #ff6a00, #2eca8b);
+    background-image: linear-gradient(90deg, #2eca8b, #ff6a03, #2eca8b);
 }
 
 .gradient {
-    background: linear-gradient(45deg, #ff6a00, #ff6a00) !important;
+    background: linear-gradient(45deg, #ff6a03, #ff6a03) !important;
 }
 
 .features .image:before {
@@ -236,11 +236,11 @@ a.text-primary:focus {
 
 .play-icon i,
 .play-icon i:hover {
-    -webkit-text-stroke: 2px #ff6a00;
+    -webkit-text-stroke: 2px #ff6a03;
 }
   
 .play-icon i:hover {
-    -webkit-text-fill-color: #ff6a00;
+    -webkit-text-fill-color: #ff6a03;
 }
 
 .event-schedule .date .day {
