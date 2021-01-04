@@ -98,13 +98,13 @@
 							<ul class="submenu megamenu">
 								<li>
 									<ul>
-										<li><a href="#tentang">Tentang</a></li>
-										<li><a href="#video-teaser">Video Teaser</a></li>
-										<li><a href="#kategori-challenges-website">Kategori Challenges Website</a></li>
-										<li><a href="#rewards">Rewards</a></li>
-										<li><a href="#detail-penilaian">Detail Penilaian</a></li>
-										<li><a href="#timeline">Timeline</a></li>
-										<li><a href="#faq">F.A.Q</a></li>
+										<li><a data-scroll href="#tentang">Tentang</a></li>
+										<li><a data-scroll href="#video-teaser">Video Teaser</a></li>
+										<li><a data-scroll href="#kategori-challenges-website">Kategori Challenges Website</a></li>
+										<li><a data-scroll href="#rewards">Rewards</a></li>
+										<li><a data-scroll href="#detail-penilaian">Detail Penilaian</a></li>
+										<li><a data-scroll href="#timeline">Timeline</a></li>
+										<li><a data-scroll href="#faq">F.A.Q</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -706,5 +706,10 @@
 		<script src="assets/js/feather.min.js"></script>
 		<!-- Main Js -->
 		<script src="assets/js/app.js"></script>
+		<!-- Smooth Scroll -->
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+		<script>
+			var scroll = new SmoothScroll('a[href*="#"]');
+		</script>
 	</body>
 </html>
