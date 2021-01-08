@@ -972,12 +972,23 @@
 		<script src="assets/js/jssocials-1.4.0/jssocials.min.js"></script>
 		<script>
 			var scroll = new SmoothScroll('a[href*="#"]');
+			var url = encodeURI('https://re-cloud.id');
+			var text = "Yuk ikutan tuntaskan setiap tantangan Re-Cloud, dan menangkan hadiah dengan total $10,000! Daftar sekarang https://re-cloud.id";
 			AOS.init({
 				duration: 650,
 				offset: 200
 			});
+			jsSocials.shares.telegram = {
+				logo: "fa fa-telegram",
+				shareUrl: `https://t.me/share/url?url=${url}&text=${text}`
+			};
+			jsSocials.shares.linkedin = {
+				logo: "fa fa-linkedin-square",
+				shareUrl: `https://www.linkedin.com/sharing/share-offsite/?url=${url}`
+			};
 			$("#share").jsSocials({
 				showLabel: false,
+				shareIn: "popup",
 				showCount: false,
 				shares: ["twitter", "facebook", "linkedin", "whatsapp", "telegram"]
 			});
