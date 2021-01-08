@@ -64,7 +64,6 @@
     /></noscript>
     <!-- End Facebook Pixel Code -->
 
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51093490-10"></script>
     <script>
@@ -136,6 +135,43 @@
 
 			p, span, li, a, h3, h4, h5, h6 {
 				font-family: 'Abel', sans-serif;
+			}
+
+			.jssocials {
+				position: fixed;
+				top: 30%;
+				left: 0;
+				z-index: 999;
+			}
+
+			.jssocials .jssocials-shares {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.jssocials .jssocials-shares > div {
+				margin: 0;
+			}
+
+			@media (max-width: 767.98px) {
+				.jssocials {
+					top: initial;
+					bottom: 0;
+					width: 100%;
+				}
+
+				.jssocials .jssocials-shares {
+					display: flex;
+					flex-direction: row;
+				}
+
+				.jssocials .jssocials-shares > div {
+					flex-grow: 1;
+				}
+
+				.jssocials .jssocials-shares > div > a{
+					width: 100%;
+				}
 			}
 		</style>
 	</head>
@@ -988,8 +1024,8 @@
 			};
 			$("#share").jsSocials({
 				showLabel: false,
-				shareIn: "popup",
 				showCount: false,
+				shareIn: "popup",
 				shares: ["twitter", "facebook", "linkedin", "whatsapp", "telegram"]
 			});
 		</script>

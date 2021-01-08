@@ -64,7 +64,6 @@
     /></noscript>
     <!-- End Facebook Pixel Code -->
 
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51093490-10"></script>
     <script>
@@ -84,9 +83,10 @@
 		<link href="assets/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
 		<link href="assets/css/colors/orange.css" rel="stylesheet" id="color-opt">
 		<!-- Social JS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
 		<link rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials.css">
-		<link rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials-theme-classic.css">
-		
+		<link rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials-theme-flat.css">
+		<!-- Google Font -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Righteous&display=swap" rel="stylesheet">
 		<style>
@@ -135,6 +135,43 @@
 
 			p, span, li, a, h3, h4, h5, h6 {
 				font-family: 'Abel', sans-serif;
+			}
+
+			.jssocials {
+				position: fixed;
+				top: 30%;
+				left: 0;
+				z-index: 999;
+			}
+
+			.jssocials .jssocials-shares {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.jssocials .jssocials-shares > div {
+				margin: 0;
+			}
+
+			@media (max-width: 767.98px) {
+				.jssocials {
+					top: initial;
+					bottom: 0;
+					width: 100%;
+				}
+
+				.jssocials .jssocials-shares {
+					display: flex;
+					flex-direction: row;
+				}
+
+				.jssocials .jssocials-shares > div {
+					flex-grow: 1;
+				}
+
+				.jssocials .jssocials-shares > div > a{
+					width: 100%;
+				}
 			}
 		</style>
 	</head>
@@ -237,6 +274,7 @@
 		</section><!--end section-->
 		<!-- Brands Header End -->
 		
+		<div id="share"></div>
 		<!-- About Start -->
 		<section class="py-4 border-bottom border-top" id="misi">
 			<div class="container mt-100 mt-60">
@@ -970,9 +1008,25 @@
 		<script src="assets/js/jssocials-1.4.0/jssocials.min.js"></script>
 		<script>
 			var scroll = new SmoothScroll('a[href*="#"]');
+			var url = encodeURI('https://re-cloud.id');
+			var text = "Yuk ikutan tuntaskan setiap tantangan Re-Cloud, dan menangkan hadiah dengan total $10,000! Daftar sekarang https://re-cloud.id";
 			AOS.init({
 				duration: 650,
 				offset: 200
+			});
+			jsSocials.shares.telegram = {
+				logo: "fa fa-telegram",
+				shareUrl: `https://t.me/share/url?url=${url}&text=${text}`
+			};
+			jsSocials.shares.linkedin = {
+				logo: "fa fa-linkedin-square",
+				shareUrl: `https://www.linkedin.com/sharing/share-offsite/?url=${url}`
+			};
+			$("#share").jsSocials({
+				showLabel: false,
+				showCount: false,
+				shareIn: "popup",
+				shares: ["twitter", "facebook", "linkedin", "whatsapp", "telegram"]
 			});
 		</script>
 	</body>
