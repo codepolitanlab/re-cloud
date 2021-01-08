@@ -84,9 +84,10 @@
 		<link href="assets/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
 		<link href="assets/css/colors/orange.css" rel="stylesheet" id="color-opt">
 		<!-- Social JS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
 		<link rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials.css">
-		<link rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials-theme-classic.css">
-		
+		<link rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials-theme-flat.css">
+		<!-- Google Font -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Righteous&display=swap" rel="stylesheet">
 		<style>
@@ -237,6 +238,7 @@
 		</section><!--end section-->
 		<!-- Brands Header End -->
 		
+		<div id="share"></div>
 		<!-- About Start -->
 		<section class="py-4 border-bottom border-top" id="misi">
 			<div class="container mt-100 mt-60">
@@ -974,6 +976,9 @@
 				duration: 650,
 				offset: 200
 			});
+			$("#share").jsSocials({
+            shares: ["twitter", "facebook", "linkedin", "whatsapp", "telegram"]
+        });
 		</script>
 	</body>
 </html>
