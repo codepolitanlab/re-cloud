@@ -89,91 +89,8 @@
 		<!-- Google Font -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Righteous&display=swap" rel="stylesheet">
-		<style>
-			.video-wrapper {
-				position: relative;
-				padding-bottom: 56.25%; /* 16:9 */
-				padding-top: 25px;
-				height: 0;
-			}
-			.video-wrapper iframe {
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-			}
-			#megatron{
-				background-image: url('assets/images/re-cloud/header1.jpg');
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: cover;
-				padding: 3em 0;
-				margin-top: 4em;
-				height: 520px;
-			}
-
-			.mb-100{
-				margin-bottom: 100px;
-			}
-
-			.text-codepolitan{
-				color: #008F80 !important;
-			}
-
-			.bg-codepolitan{
-				background-color: #008F80 !important;
-			}
-
-			.bg-light-orange{
-				background-color: #f19e6c !important;
-			}
-
-			h1, h1 span{
-				font-family: 'Righteous', cursive;
-			}
-
-			p, span, li, a, h3, h4, h5, h6 {
-				font-family: 'Abel', sans-serif;
-			}
-
-			.jssocials {
-				position: fixed;
-				top: 30%;
-				left: 0;
-				z-index: 999;
-			}
-
-			.jssocials .jssocials-shares {
-				display: flex;
-				flex-direction: column;
-			}
-
-			.jssocials .jssocials-shares > div {
-				margin: 0;
-			}
-
-			@media (max-width: 767.98px) {
-				.jssocials {
-					top: initial;
-					bottom: 0;
-					width: 100%;
-				}
-
-				.jssocials .jssocials-shares {
-					display: flex;
-					flex-direction: row;
-				}
-
-				.jssocials .jssocials-shares > div {
-					flex-grow: 1;
-				}
-
-				.jssocials .jssocials-shares > div > a{
-					width: 100%;
-				}
-			}
-		</style>
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/custom.css">
 	</head>
 
 	<body>
@@ -189,16 +106,17 @@
 		<!-- Loader -->
 		
 		<!-- Navbar Start -->
-		<header id="topnav" class="defaultscroll sticky bg-white">
+		<header id="topnav" class="defaultscroll sticky">
 			<div class="container">
 				<!-- Logo container-->
 				<div>
 					<a class="logo" href="https://re-cloud.id/">
-						<img src="assets/images/re-cloud/re-cloud.png" alt="re-cloud" height="30">
+						<img src="assets/images/re-cloud/re-cloud_white.png" class="l-light" alt="re-cloud" height="30">
+						<img src="assets/images/re-cloud/re-cloud.png" class="l-dark" alt="re-cloud" height="30">
 					</a>
 				</div>                 
 				<div class="buy-button d-none d-md-block">
-					<a href="https://apps.codepolitan.com/user/login?callback=re-cloud" target="_blank" class="btn btn-primary">Daftar</a>
+					<a href="https://apps.codepolitan.com/user/login?callback=re-cloud" target="_blank" class="btn btn-light">Daftar</a>
 				</div><!--end login button-->
 				<!-- End Logo container-->
 				<div class="menu-extras">
@@ -217,14 +135,16 @@
 
 				<div id="navigation">
 					<!-- Navigation Menu-->
-					<a href="https://apps.codepolitan.com/user/login?callback=re-cloud" target="_blank" class="btn btn-primary btn-block rounded-0 mb-2 d-md-none">Daftar</a>
-					<ul class="navigation-menu justify-content-end">
+					<div class="text-right d-md-none">
+						<a href="https://apps.codepolitan.com/user/login?callback=re-cloud" target="_blank" class="btn btn-primary shadow m-2">Daftar</a>
+					</div>
+					<ul class="navigation-menu justify-content-end nav-light">
 						<li class="has-submenu">
-							<a href="javascript:void(0)">Info</a><span class="menu-arrow"></span>
+							<a href="javascript:void(0)" class="resp-color-primary">Info</a><span class="resp-color-primary menu-arrow"></span>
 							<ul class="submenu megamenu">
 								<li>
 									<ul>
-										<li><a data-scroll href="#misi">Misi</a></li>
+										<li><a data-scroll href="#misi">Tentang Challenges</a></li>
 										<li><a data-scroll href="#video-teaser">Video Teaser</a></li>
 										<li><a data-scroll href="#tema">Tema Kompetisi</a></li>
 										<li><a data-scroll href="#kategori-submission">Kategori Submission</a></li>
@@ -236,38 +156,42 @@
 								</li>
 							</ul>
 						</li>
-					</ul><!--end navigation menu-->
+					</ul>
 				</div><!--end navigation-->
 			</div><!--end container-->
 		</header><!--end header-->
 		<!-- Navbar End -->
 
 		<!-- Megatron Start -->
-		<section class="py-4 border-0" id="megatron">
-			<div class="container mt-100 mb-100">
+		<section class="pt-4 border-0 bg-primary" id="megatron">
+			<div class="container mt-100">
 				<div class="row align-items-center">
-					<div class="col-lg-6 col-md-6">
-						<div class="title-heading mt-4">
-							<h1 class="heading mb-3 text-codepolitan header-megatron">Re-Cloud Challenges Indonesia</h1>
-							<h3 class="text-primary">11 Jan - 25 Feb 2021</h3>
+					<div class="col-md-6 offset-md-3">
+						<div class="title-heading mt-4 text-center">
+							<h1 class="heading mb-3 text-white header-megatron">THE BIGGEST VIRTUAL CLOUD CHALLENGES IN INDONESIA</h1>
+							<h3 class="text-white">11 Jan - 25 Feb 2021</h3>
 						</div>
 					</div><!--end col-->
 				</div><!--end row-->
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<img class="img-fluid" src="assets/images/re-cloud/jumbotron_logo.png" alt="jumbotron_logo.png">
+					</div>
+				</div>
 			</div><!--end container-->
 		</section><!--end section-->
 		<!-- Megatron End -->
 
 		<!-- Brands Header Start -->
-		<section class="bg-light-orange pb-2">
-			<div class="container">
+		<section class="pb-2">
+			<div class="container my-4">
 				<div class="row">
 					<div class="col-12">
-						<h4 class="text-center text-white mb-0 d-block d-md-none">Organized by:</h4>
+						<p class="text-center text-muted mb-0">Organized by:</p>
 					</div>
 					<div class="col-12 d-flex align-items-center justify-content-center">
-							<h4 class="text-white mb-0 mr-3 d-none d-md-block">Organized by:</h4>
-							<img class="mx-1 w-75 d-md-none" src="assets/images/brands.png" alt="brands.png">
-							<img class="mx-1 w-50 d-none d-md-block" src="assets/images/brands.png" alt="brands.png">
+							<img class="mx-1 w-75 d-md-none" src="assets/images/brands_color.png" alt="brands_color.png">
+							<img class="mx-1 w-50 d-none d-md-block" src="assets/images/brands_color.png" alt="brands_color.png">
 					</div>
 				</div>
 			</div><!--end container-->
@@ -276,7 +200,7 @@
 		
 		<div id="share"></div>
 		<!-- About Start -->
-		<section class="py-4 border-bottom border-top" id="misi">
+		<section class="py-4 " id="misi">
 			<div class="container mt-100 mt-60">
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
@@ -285,7 +209,7 @@
 
 					<div class="col-lg-6 col-md-6">
 						<div class="title-heading mt-4">
-							<h1 class="heading mb-3 text-primary" data-aos="fade-up" data-aos-delay="255">Misi</h1>
+							<h1 class="heading mb-3 text-primary" data-aos="fade-up" data-aos-delay="255">Tentang Challenges</h1>
 							<p class="para-desc text-muted" data-aos="fade-up" data-aos-delay="260">
 								<strong>Re-Cloud Challenges Indonesia</strong> merupakan kompetisi pertama dari Alibaba Cloud di Indonesia dengan misi edukasi masyarakat agar terbiasa menggunakan Layanan Awan (Cloud Service). Acara ini juga ditunjang dengan kelas online dan sertifikasi.</p>
 							<p class="para-desc text-muted" data-aos="fade-up" data-aos-delay="265">
@@ -299,12 +223,12 @@
 		<!-- About End -->
 		
 		<!-- Teaser Start -->
-		<section class="py-4 border-bottom border-top" id="video-teaser">
+		<section class="py-4" id="video-teaser">
 			<div class="container mt-100 mt-60">
 				<div class="row align-items-center">
 					<div class="col-12 text-center">
 						<div class="section-title mb-4 pb-2">
-							<h1 class="heading mb-3" data-aos="fade-up" data-aos-delay="250"><span class="text-primary">Re-cloud Challenges</span> Teaser</h1>
+							<h1 class="heading mb-3" data-aos="fade-up" data-aos-delay="250"><span class="text-primary">Re-cloud Challenges</span> <span class="text-codepolitan">Teaser</span></h1>
 						</div>
 					</div><!--end col-->
 					<div class="col-12 mt-4 pt-2 mt-sm-0 pt-sm-0" data-aos="fade-up" data-aos-delay="255">
@@ -318,17 +242,13 @@
 		<!-- Teaser End -->
 		
 		<!-- Tema Start -->
-		<section class="py-4 border-bottom border-top" id="tema">
-			<div class="container mt-100 mt-60">
+		<section class="py-4 bg-primary mt-100" id="tema">
+			<div class="container mb-100 mt-100">
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-md-6">
 						<div class="title-heading mt-4">
-							<h1 class="heading mb-3 text-primary" data-aos="fade-up" data-aos-delay="300">“Enabling Happiness and Productivity at Home <span class="text-codepolitan">#StayAtHome</span>”</h1>
+							<h1 class="heading mb-3 text-white" data-aos="fade-up" data-aos-delay="300">“Enabling Happiness and Productivity at Home #StayAtHome”</h1>
 						</div>
-					</div><!--end col-->
-
-					<div class="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0" data-aos="fade-up" data-aos-delay="320">
-						<img src="assets/images/re-cloud/tema.jpg" class="img-fluid" alt="tema.jpg">
 					</div><!--end col-->
 				</div><!--end row-->
 			</div><!--end container-->
@@ -476,10 +396,8 @@
 		</section>
 		<!-- Category Challenges End -->
 
-		
-		
-		<!-- Tema Start -->
-		<section class="py-4 border-bottom border-top" id="hadiah">
+		<!-- Hadiah Start -->
+		<section class="py-4 " id="hadiah">
 			<div class="container mt-100 mt-60">
 				<div class="row align-items-center">
 					<div class="col-12">
@@ -503,10 +421,10 @@
 				</div><!--end row-->
 			</div><!--end container-->
 		</section><!--end section-->
-		<!-- Tema End -->
+		<!-- Hadiah End -->
 		
 		<!-- Detail Penilaian Start -->
-		<section class="py-4 border-bottom border-top" id="detail-kompetisi">
+		<section class="py-4 " id="detail-kompetisi">
 			<div class="container mt-100 mt-60">
 				<div class="row align-items-center">
 					<div class="col-12">
@@ -567,8 +485,13 @@
 										</a>
 										<div id="collapsefour-evaluation" class="collapse" aria-labelledby="headingfour-evaluation" data-parent="#accordionEvaluation">
 											<div class="card-body px-2 py-4">
-												<p class="text-muted mb-0 faq-ans">Upload dan hosting website kamu di Cloud Server ECS Alibaba Cloud milikmu, buat postingan di media sosial instagram pribadi kamu berupa screenshot website dan disertai deskripsi mengenai website mu dan tag @re_cloud.id @codepolitan dan hashtag #Re_CloudChallengesIndonesia. Lalu daftarkan di tab menu “Website Submission” dan lengkapi datanya di dashboard Re-Cloud Challenges.</p>
-												<p class="text-muted mb-0 faq-ans">Misi utama kamu adalah mendapatkan jumlah “Love” sebanyak mungkin, dan dapatkan maksimal 400 poin. Kamu bisa submit website karyamu sebanyak mungkin untuk memperbesar peluang memenangkan kompetisi.</p>
+												<p class="text-muted mb-0 faq-ans">Upload dan hosting website kamu di Cloud Server ECS Alibaba Cloud milikmu, buat postingan di media sosial Instagram pribadi kamu berupa screenshot website disertai deskripsi mengenai websitemu, dan jangan lupa tag @re_cloud.id @codepolitan dan hashtag #Re_CloudChallengesIndonesia.</p>
+												<br>
+												<p class="text-muted mb-0 faq-ans">Lalu daftarkan di tab menu “Website Submission” dan lengkapi datanya di dashboard Re-Cloud Challenges dan pastikan terpasang domain untuk website nya. Kamu bisa gunakan domain yang sudah kamu punya dan di pointing ke ECS mu, atau beli domain .cyou seharga $0.01 <a href="https://www.alibabacloud.com/domain/cyou" target="_blank" class="text-primary">disini</a>.</p>
+												<br>
+												<p class="text-muted mb-0 faq-ans">Khusus buat akun pelajar/mahasiswa, kamu bisa submit hanya dengan IP Address Public ECS kamu saja.</p>
+												<br>
+												<p class="text-muted mb-0 faq-ans">Misi utama kamu adalah mendapatkan jumlah “Like/Love” sebanyak mungkin, hingga kamu bisa mendapatkan maksimal 400 poin. Kamu bisa submit website karya pribadimu sebanyak mungkin untuk memperbesar peluang memenangkan kompetisi.</p>
 											</div>
 										</div>
 								</div>
@@ -620,7 +543,7 @@
 
 		
 		<!-- Timeline Start -->
-		<section class="py-4 border-bottom border-top" id="timeline">
+		<section class="py-4 " id="timeline">
 			<div class="container mt-100 mt-60">
 				<div class="row">
 					<div class="col-12">
@@ -747,7 +670,7 @@
 
 		
 		<!-- FAQ Start -->
-		<section class="py-4 border-bottom border-top" id="faq">
+		<section class="py-4 " id="faq">
 			<div class="container mt-100 mt-60">
 				<div class="row">
 					<div class="col-12">
@@ -941,7 +864,7 @@
 		<!-- FAQ End -->
 		
 		<!-- Register Start -->
-		<section class="py-4 border-bottom border-top">
+		<section class="py-4 mb-100">
 			<div class="container mt-100">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-8 offset-md-2 text-center">
