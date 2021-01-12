@@ -31,6 +31,22 @@
 	margin-bottom: 100px;
 }
 
+.bg-dark-primary {
+	background-color: #E5640C;
+}
+
+.bg-registration {
+	background-color: #707070;
+}
+
+.bg-light-grey {
+	background-color: #F8F5F5;
+}
+
+.bg-rewards {
+	background-color: #FFE7D4;
+}
+
 .text-codepolitan{
 	color: #008F80 !important;
 }

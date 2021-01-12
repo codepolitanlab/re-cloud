@@ -94,6 +94,10 @@
 	</head>
 
 	<body>
+		
+		<!-- Share Button -->
+		<div id="share"></div>
+
 		<!-- Loader -->
 		<div id="preloader">
 			<div id="status">
@@ -114,10 +118,7 @@
 						<img src="assets/images/re-cloud/re-cloud_white.png" class="l-light" alt="re-cloud" height="30">
 						<img src="assets/images/re-cloud/re-cloud.png" class="l-dark" alt="re-cloud" height="30">
 					</a>
-				</div>                 
-				<div class="buy-button d-none d-md-block">
-					<a href="https://apps.codepolitan.com/user/login?callback=re-cloud" target="_blank" class="btn btn-light">Daftar</a>
-				</div><!--end login button-->
+				</div>
 				<!-- End Logo container-->
 				<div class="menu-extras">
 					<div class="menu-item">
@@ -135,27 +136,13 @@
 
 				<div id="navigation">
 					<!-- Navigation Menu-->
-					<div class="text-right d-md-none">
-						<a href="https://apps.codepolitan.com/user/login?callback=re-cloud" target="_blank" class="btn btn-primary shadow m-2">Daftar</a>
-					</div>
 					<ul class="navigation-menu justify-content-end nav-light">
-						<li class="has-submenu">
-							<a href="javascript:void(0)" class="resp-color-primary">Info</a><span class="resp-color-primary menu-arrow"></span>
-							<ul class="submenu megamenu">
-								<li>
-									<ul>
-										<li><a data-scroll href="#misi">Tentang Challenges</a></li>
-										<li><a data-scroll href="#video-teaser">Video Teaser</a></li>
-										<li><a data-scroll href="#tema">Tema Kompetisi</a></li>
-										<li><a data-scroll href="#kategori-submission">Kategori Submission</a></li>
-										<li><a data-scroll href="#hadiah">Hadiah</a></li>
-										<li><a data-scroll href="#detail-kompetisi">Detail Kompetisi</a></li>
-										<li><a data-scroll href="#timeline">Timeline</a></li>
-										<li><a data-scroll href="#faq">F.A.Q</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
+						<li><a data-scroll href="#misi">Misi</a></li>
+						<li><a data-scroll href="#tema">Kompetisi</a></li>
+						<li><a data-scroll href="#timeline">Timeline</a></li>
+						<li><a data-scroll href="#hadiah">Hadiah</a></li>
+						<li><a data-scroll href="#faq">FAQ</a></li>
+						<li><a data-scroll href="#kategori-submission">Submission</a></li>
 					</ul>
 				</div><!--end navigation-->
 			</div><!--end container-->
@@ -163,13 +150,13 @@
 		<!-- Navbar End -->
 
 		<!-- Megatron Start -->
-		<section class="pt-4 border-0 bg-primary" id="megatron">
+		<section class="pt-4 border-0 bg-dark-primary" id="megatron">
 			<div class="container mt-100">
 				<div class="row align-items-center">
 					<div class="col-md-6 offset-md-3">
 						<div class="title-heading mt-4 text-center">
 							<h1 class="heading mb-3 text-white header-megatron">THE BIGGEST VIRTUAL CLOUD CHALLENGES IN INDONESIA</h1>
-							<h3 class="text-white">11 Jan - 25 Feb 2021</h3>
+							<h3 class="text-white">Total Hadiah $ 13,000</h3>
 						</div>
 					</div><!--end col-->
 				</div><!--end row-->
@@ -197,8 +184,7 @@
 			</div><!--end container-->
 		</section><!--end section-->
 		<!-- Brands Header End -->
-		
-		<div id="share"></div>
+
 		<!-- About Start -->
 		<section class="py-4 " id="misi">
 			<div class="container mt-100 mt-60">
@@ -255,13 +241,40 @@
 		</section><!--end section-->
 		<!-- Tema End -->
 
+		<!-- Hadiah Start -->
+		<section class="py-4 bg-rewards" id="hadiah">
+			<div class="container mt-100 mt-60">
+				<div class="row align-items-center">
+					<div class="col-12">
+						<div class="title-heading mt-4">
+							<h1 class="heading mb-3 text-center text-codepolitan" data-aos="fade-up" data-aos-delay="260"><span class="text-primary">Total</span> Hadiah</h1>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="title-heading mt-4 text-center">
+							<div class="d-flex justify-content-center">
+								<h4 class=" mr-2"  data-aos="fade-up" data-aos-delay="265">By </h4>
+								<img class="d-block" src="assets/images/alibaba-cloud.png"  alt="" height="30px"  data-aos="fade-up" data-aos-delay="265">
+							</div>
+							<h1 class="mb-3 text-codepolitan text-center" style="font-size: 5rem !important;"  data-aos="fade-up" data-aos-delay="270" data-aos-offset="100">$ <span class="purecounter" data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-delay="5"></span></h1>
+						</div>
+					</div><!--end col-->
+
+					<div class="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0" data-aos="fade-up" data-aos-delay="270">
+						<img src="assets/images/re-cloud/jadilah_juara.jpg" class="img-fluid" alt="jadilah_juara.jpg">
+					</div><!--end col-->
+				</div><!--end row-->
+			</div><!--end container-->
+		</section><!--end section-->
+		<!-- Hadiah End -->
+
 		<!-- Category Challenges Start -->
 		<section class="section" id="kategori-submission">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-12 text-center">
 						<div class="section-title mb-4 pb-2">
-							<h1 class="heading mb-3" data-aos="fade-up" data-aos-delay="250"><span class="text-primary">Kategori</span> Submission</h1>
+							<h1 class="heading mb-3 text-codepolitan" data-aos="fade-up" data-aos-delay="250"><span class="text-primary">Kategori</span> Submission</h1>
 						</div>
 					</div><!--end col-->
 				</div><!--end row-->
@@ -395,41 +408,14 @@
 			</div><!--end container-->
 		</section>
 		<!-- Category Challenges End -->
-
-		<!-- Hadiah Start -->
-		<section class="py-4 " id="hadiah">
-			<div class="container mt-100 mt-60">
-				<div class="row align-items-center">
-					<div class="col-12">
-						<div class="title-heading mt-4">
-							<h1 class="heading mb-3 text-center" data-aos="fade-up" data-aos-delay="260"><span class="text-primary">Total</span> Hadiah</h1>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6">
-						<div class="title-heading mt-4 text-center">
-							<div class="d-flex justify-content-center">
-								<h4 class=" mr-2"  data-aos="fade-up" data-aos-delay="265">By </h4>
-								<img class="d-block" src="assets/images/alibaba-cloud.png"  alt="" height="30px"  data-aos="fade-up" data-aos-delay="265">
-							</div>
-							<h1 class="mb-3 text-codepolitan text-center" style="font-size: 5rem !important;"  data-aos="fade-up" data-aos-delay="270" data-aos-offset="100">$ <span class="purecounter" data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-delay="5"></span></h1>
-						</div>
-					</div><!--end col-->
-
-					<div class="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0" data-aos="fade-up" data-aos-delay="270">
-						<img src="assets/images/re-cloud/jadilah_juara.jpg" class="img-fluid" alt="jadilah_juara.jpg">
-					</div><!--end col-->
-				</div><!--end row-->
-			</div><!--end container-->
-		</section><!--end section-->
-		<!-- Hadiah End -->
 		
 		<!-- Detail Penilaian Start -->
-		<section class="py-4 " id="detail-kompetisi">
+		<section class="py-4 bg-light-grey" id="detail-kompetisi">
 			<div class="container mt-100 mt-60">
 				<div class="row align-items-center">
 					<div class="col-12">
 						<div class="title-heading mt-4" data-aos="fade-up" data-aos-delay="260">
-							<h1 class="heading mb-3 text-center"><span class="text-primary">Detail</span> Kompetisi</h1>
+							<h1 class="heading mb-3 text-center text-codepolitan"><span class="text-primary">Detail</span> Tantangan</h1>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0 order-md-2">
@@ -670,12 +656,12 @@
 
 		
 		<!-- FAQ Start -->
-		<section class="py-4 " id="faq">
+		<section class="py-4 bg-light-grey" id="faq">
 			<div class="container mt-100 mt-60">
 				<div class="row">
 					<div class="col-12">
 						<div class="title-heading mt-4" data-aos="fade-up" data-aos-delay="260">
-							<h1 class="heading mb-4 text-center"><span class="text-primary">F.A.Q</span></h1>
+							<h1 class="heading mb-4 text-center"><span class="text-primary">FAQ</span></h1>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
@@ -864,8 +850,8 @@
 		<!-- FAQ End -->
 		
 		<!-- Register Start -->
-		<section class="py-4 mb-100">
-			<div class="container mt-100">
+		<section class="py-4 mb-100 bg-registration">
+			<div class="container mt-100 mb-100">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-8 offset-md-2 text-center">
 						<a href="https://apps.codepolitan.com/user/login?callback=re-cloud" target="_blank">
