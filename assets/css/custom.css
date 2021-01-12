@@ -31,6 +31,21 @@
 	margin-bottom: 100px;
 }
 
+.circle-winner {
+	height: 65px;
+	width: 65px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.heading-small {
+	font-size: 20px;
+}
+
+.title-nominal {
+	font-size: 4em !important;
+}
+
 .bg-dark-primary {
 	background-color: #E5640C;
 }
