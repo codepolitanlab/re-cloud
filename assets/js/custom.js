@@ -26,11 +26,11 @@ $(document).ready(function( $ ) {
 		delay: 10,
 		time: 1000
 	});
-	// $('.daftar').click(function(e) {
-	// 	e.preventDefault();
-	// 	window.open('https://apps.codepolitan.com/user/login?callback=re-cloud', '_blank');
-	// 	setTimeout(() => {
-	// 		window.open('https://www.alibabacloud.com/?spm=a3c0i.259011.6791778070.1.7c224adf5aCbgU', '_blank');
-	// 	}, 500);
-	// });
+	$('.daftar').click(function(e) {
+		e.preventDefault();
+		fbq('trackCustom', 'DaftarReCLoud');
+		setTimeout(() => {
+			window.open('https://apps.codepolitan.com/user/login?callback=re-cloud', '_blank');
+		}, 500);
+	});
 });
