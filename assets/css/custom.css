@@ -58,6 +58,24 @@
 	background-color: #707070;
 }
 
+@keyframes animatedBackground {
+  from {
+    background-position: 30% 0;
+  }
+  to {
+    background-position: 70% 0;
+  }
+}
+
+.bg-image-registration {
+	background-image: url('../images/re-cloud/cloud-daftar.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 200px;
+	height: 200px;
+	animation: animatedBackground 10s linear infinite alternate;
+}
+
 .bg-light-grey {
 	background-color: #F8F5F5;
 }
