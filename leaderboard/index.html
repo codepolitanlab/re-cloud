@@ -132,49 +132,24 @@
 					</div><!--end col-->
 					<div class="col-md-12 d-none d-lg-block">
 						<div class="px-100">
-							<div class="row align-items-end justify-content-center">
-								<div class="col-4 p-0 mr-n6 d-flex flex-column">
+							<div class="row align-items-end justify-content-center list-winner">
+								<div class="col-4 p-0 mr-n6" data-websheet="data-winner">
 									<div>
 										<div class="text-center front">
-											<h4 class="text-center text-white">2# <br> Hakim Sembiring</h4>
-											<img src="../assets/images/re-cloud/hakim.jpg" class="img-fluid rounded-circle w-50" alt="second-winner">
+											<h4 class="text-center text-white">
+												<span data-websheet-text="rank"></span># <br> 
+												<span data-websheet-text="name"></span>
+											</h4>
+											<img data-websheet-bind:src="avatar" class="img-fluid rounded-circle w-50" alt="second-winner">
 											<div class="d-flex justify-content-center mt-n4">
-												<div class="p-2 bg-white rounded-lg">1900 pts</div>
+												<div class="p-2 bg-white rounded-lg">
+													<span data-websheet-text="point"></span> pts
+												</div>
 											</div>
 											<div class="rounded-circle shadow-avatar"></div>
 										</div>
 										<div class="text-center">
-											<img src="../assets/images/re-cloud/second-winner.png" class="img-fluid" alt="">
-										</div>
-									</div>
-								</div>
-								<div class="col-4 p-0 d-flex flex-column" style="z-index: 10;">
-									<div>
-										<div class="text-center front animate__animated animate__pulse animate__infinite animate__slow">
-											<h4 class="text-center text-white">1# <br> Kresna Galuh Dwi Herlangga</h4>
-											<img src="../assets/images/re-cloud/kresna.jpg" class="img-fluid rounded-circle w-50" alt="second-winner">
-											<div class="d-flex justify-content-center mt-n4">
-												<div class="p-2 bg-white rounded-lg">2000 pts</div>
-											</div>
-											<div class="rounded-circle shadow-avatar"></div>
-										</div>
-										<div class="text-center">
-											<img src="../assets/images/re-cloud/first-winner.png" class="img-fluid" alt="">
-										</div>
-									</div>
-								</div>
-								<div class="col-4 p-0 ml-n6 d-flex flex-column">
-									<div>
-										<div class="text-center front">
-											<h4 class="text-center text-white">3# <br> Muhammad Singgih</h4>
-											<img src="../assets/images/re-cloud/singgih.jpg" class="img-fluid rounded-circle w-50" alt="second-winner">
-											<div class="d-flex justify-content-center mt-n4">
-												<div class="p-2 bg-white rounded-lg">1800 pts</div>
-											</div>
-											<div class="rounded-circle shadow-avatar"></div>
-										</div>
-										<div class="text-center">
-											<img src="../assets/images/re-cloud/third-winner.png" class="img-fluid" alt="">
+											<img data-websheet-bind:src="podium_img" class="img-fluid" alt="">
 										</div>
 									</div>
 								</div>
@@ -183,30 +158,17 @@
 					</div>
 				</div><!--end row-->
 				<div class="row d-lg-none">
-					<div class="col-4 mb-5">
+					<div class="col-4 mb-5" data-websheet="data-winner">
 						<div class="text-center">
-							<strong class="text-center text-white">2# <br> Hakim Sembiring</strong>
-							<img src="../assets/images/re-cloud/hakim.jpg" class="img-fluid rounded-circle" alt="second-winner">
+							<strong class="text-center text-white">
+								<span data-websheet-text="rank"></span># <br> 
+								<span data-websheet-text="name"></span>
+							</strong>
+							<img data-websheet-bind:src="avatar" class="img-fluid rounded-circle" alt="second-winner">
 							<div class="d-flex justify-content-center mt-n4">
-								<div class="p-2 bg-white rounded-lg">1900 pts</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4 mb-5">
-						<div class="text-center">
-							<strong class="text-center text-white">1# <br> Kresna Galuh Dwi Herlangga</strong>
-							<img src="../assets/images/re-cloud/kresna.jpg" class="img-fluid rounded-circle" alt="first-winner">
-							<div class="d-flex justify-content-center mt-n4">
-								<div class="p-2 bg-white rounded-lg">2000 pts</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4 mb-5">
-						<div class="text-center">
-							<strong class="text-center text-white">3# <br> Muhammad Singgih</strong>
-							<img src="../assets/images/re-cloud/singgih.jpg" class="img-fluid rounded-circle" alt="third-winner">
-							<div class="d-flex justify-content-center mt-n4">
-								<div class="p-2 bg-white rounded-lg">1800 pts</div>
+								<div class="p-2 bg-white rounded-lg">
+									<span data-websheet-text="point"></span> pts
+								</div>
 							</div>
 						</div>
 					</div>
@@ -219,6 +181,9 @@
 		<section class="pb-2 mt-5">
 			<div class="container my-4">
 				<div class="row">
+					<div class="col-12">
+						<h2 class="text-center mb-5 mt-3">100 Leaderboard</h2>
+					</div>
 					<div class="col-12 col-lg-4 mb-2">
 						<div class="d-flex ">
 							<input type="text" id="search" class="form-control form-control-lg" placeholder="Cari nama ..."> 
@@ -324,13 +289,16 @@
 		<script src="../assets/js/feather.min.js"></script>
 		<!-- Main Js -->
 		<script src="../assets/js/app.js"></script>
-		<!-- Custom JS -->
-		<script src="../assets/js/custom.js"></script>
+		<!-- Social JS -->
+		<script src="../assets/js/jssocials-1.4.0/jssocials.min.js"></script>
 		<script>
 			// const base = 'https://re-cloud/leaderboard/'
 			const base = 'http://localhost/re-cloud/leaderboard/'
 			const urlSheet = 'https://docs.google.com/spreadsheets/d/1foHFySLtQYSVRJ_tubHjZiTTMG9bC4EasxHcbmFOP98/edit#gid=0';
 			const searchKeyword = getUrlVars()["search"] !== '' ? getUrlVars()["search"] : null;
+			const url = encodeURI('https://re-cloud.id');
+			const text = "Yuk ikutan tuntaskan setiap tantangan Re-Cloud, dan menangkan hadiah dengan total $13,000! Daftar sekarang https://re-cloud.id";
+
 			$('#search').val(searchKeyword ? decodeURI(searchKeyword) : null);
 			if(searchKeyword){
 				$('#clear').toggle();
@@ -359,6 +327,17 @@
 									
 				// Spreadsheet tab name
 				sheet: 'Count Leaderboard',
+				caching: false,  // disable caching
+									
+			})
+			websheet('data-winner', {  // <-- data source name
+									
+				// URL of the spreadsheet
+				url: urlSheet,
+									
+				// Spreadsheet tab name
+				sheet: 'List Leaderboard',
+				query: `select * limit 3`,
 				caching: false,  // disable caching
 									
 			})
@@ -391,6 +370,21 @@
 				}
 				return vars;
 			}
+			
+			jsSocials.shares.telegram = {
+				logo: "fa fa-telegram",
+				shareUrl: `https://t.me/share/url?url=${url}&text=${text}`
+			};
+			jsSocials.shares.linkedin = {
+				logo: "fa fa-linkedin-square",
+				shareUrl: `https://www.linkedin.com/sharing/share-offsite/?url=${url}`
+			};
+			$("#share").jsSocials({
+				showLabel: false,
+				showCount: false,
+				shareIn: "popup",
+				shares: ["twitter", "facebook", "linkedin", "whatsapp", "telegram"]
+			});
 		</script>
 	</body>
 </html>

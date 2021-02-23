@@ -180,7 +180,18 @@ p, span, li, a, h3, h4, h5, h6 {
 	margin-left: -5rem!important;
 }
 
+.list-winner :nth-child(2) {
+	z-index: 10 !important;
+	order: 2;
+}
 
+.list-winner :nth-child(3) {
+	order: 1;
+}
+
+.list-winner :nth-child(4) {
+	order: 3;
+}
 
 .pyro > .before, .pyro > .after {
   position: absolute;
