@@ -35,6 +35,11 @@
 	margin-bottom: 100px;
 }
 
+.px-100{
+	padding-left: 6rem;
+	padding-right: 6rem;
+}
+
 .circle-winner {
 	height: 65px;
 	width: 65px;
@@ -104,6 +109,10 @@ p, span, li, a, h3, h4, h5, h6 {
 	font-family: 'Abel', sans-serif;
 }
 
+.text-muted-50 {
+	color: #ebebeb
+}
+
 .jssocials {
 	position: fixed;
 	top: 30%;
@@ -139,4 +148,34 @@ p, span, li, a, h3, h4, h5, h6 {
 	.jssocials .jssocials-shares > div > a{
 		width: 100%;
 	}
+
+	.px-100{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+
+.front {
+	z-index: 5;
+	position: relative;
+	top: 6rem;
+}
+
+.shadow-avatar {
+	background-color: rgba(0, 0, 0, 0);
+	height: 50px;
+	width: 50%;
+	transform: translateX(50%);
+	z-index: -2;
+	position: relative;
+	bottom: 130px;
+	box-shadow: 0 100px 30px 0px rgba(31, 41, 55, 0.3);
+}
+
+.mr-n6 {
+	margin-right: -5rem!important;
+}
+
+.ml-n6 {
+	margin-left: -5rem!important;
 }
