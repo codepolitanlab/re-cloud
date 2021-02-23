@@ -216,10 +216,18 @@
 		<!-- Megatron End -->
 
 		<!-- Leaderboard List Header Start -->
-		<section class="pb-2">
+		<section class="pb-2 mt-5">
 			<div class="container my-4">
 				<div class="row">
-					<div class="col-12">
+					<div class="col-4 mb-2">
+						<div class="form-inline">
+							<input type="text" id="search" class="form-control form-control-lg" placeholder="Ketikkan nama [enter] . . ."> 
+							<button type="button" id="clear" class="ml-2 btn btn-danger" style="display: none;"><i class="fa fa-close"></i></button>
+						</div>
+					</div>
+					<div class="col-4 mb-2">
+					</div>
+					<div class="col-4 mb-2">
 						<p class="text-right text-muted mb-3" data-websheet="data-count">Total Peserta: <span data-websheet-text="count"></span></p>
 					</div>
 					<div class="col-12">
@@ -329,7 +337,17 @@
 		<!-- Custom JS -->
 		<script src="../assets/js/custom.js"></script>
 		<script>
+			// const base = 'https://re-cloud/leaderboard/'
+			const base = 'http://localhost/re-cloud/leaderboard/'
 			const urlSheet = 'https://docs.google.com/spreadsheets/d/1foHFySLtQYSVRJ_tubHjZiTTMG9bC4EasxHcbmFOP98/edit#gid=0';
+			const searchKeyword = getUrlVars()["search"] !== '' ? getUrlVars()["search"] : null;
+			$('#search').val(searchKeyword ? decodeURI(searchKeyword) : null);
+			if(searchKeyword){
+				$('#clear').toggle();
+				query = `select * where LOWER(B) contains LOWER('${searchKeyword}') limit 100`;
+			} else {
+				query = `select * limit 100`;
+			}
 			websheet('data-leaderboard', {  // <-- data source name
 									
 				// URL of the spreadsheet
@@ -338,7 +356,7 @@
 				// Spreadsheet tab name
 				sheet: 'List Leaderboard',
 				caching: false,  // disable caching
-				query: `select * order by A limit 100`,
+				query,
 				aliases: {
 					'Is First?': row => row['rank'].value === 1,
 				}
@@ -354,6 +372,35 @@
 				caching: false,  // disable caching
 									
 			})
+			$('#search').keyup(function(e){
+				if(e.keyCode == 13)
+				{
+					$('#clear').toggle();
+					const queryTxt = $('#search').val();
+					if(!queryTxt) {
+						alert('Nama belum diisi!')
+						return null;
+					}
+					window.location.href = `${base}?search=${queryTxt}`
+				}
+			})
+			
+			$('#clear').click('toggle', function(){
+				window.location.href = `${base}`
+			});
+
+			function getUrlVars()
+			{
+				var vars = [], hash;
+				var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+				for(var i = 0; i < hashes.length; i++)
+				{
+					hash = hashes[i].split('=');
+					vars.push(hash[0]);
+					vars[hash[0]] = hash[1];
+				}
+				return vars;
+			}
 		</script>
 	</body>
 </html>
