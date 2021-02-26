@@ -104,13 +104,12 @@
 		<div id="share"></div>
 		
 		<!-- Navbar Start -->
-		<header id="topnav" class="defaultscroll sticky">
+		<header id="topnav" class="defaultscroll sticky bg-white">
 			<div class="container">
 				<!-- Logo container-->
 				<div>
 					<a class="logo" href="https://re-cloud.id/">
-						<img src="../assets/images/re-cloud/re-cloud_white.png" class="l-light" alt="re-cloud" height="30">
-						<img src="../assets/images/re-cloud/re-cloud.png" class="l-dark" alt="re-cloud" height="30">
+						<img src="../assets/images/re-cloud/re-cloud.png" alt="re-cloud" height="30">
 					</a>
 				</div>
 			</div><!--end container-->
@@ -118,56 +117,24 @@
 		<!-- Navbar End -->
 
 		<!-- Megatron Start -->
-		<section class="pt-4 border-0 bg-dark-primary pyro">
+		<section class="pt-4 border-0 bg-rewards pyro">
 			<div class="before"></div>
 			<div class="after"></div>
 			<div class="container mt-100">
 				<div class="row align-items-center">
 					<div class="col-12 col-lg-6 offset-lg-3 mb-3">
 						<div class="title-heading mt-4 text-center">
-							<h1 class="heading mb-3 text-white text-shadow">Selamat Bagi Pemenang <br> Re-Cloud Challenges Indonesia</h1>
+							<h1 class="heading mb-3 text-primary text-shadow">Selamat Bagi Pemenang <br> Re-Cloud Challenges Indonesia</h1>
 						</div>
 					</div><!--end col-->
-					<div class="col-md-12 d-none d-lg-block">
-						<div class="px-100">
-							<div class="row align-items-end justify-content-center list-winner">
-								<div class="col-4 p-0 mr-n6" data-websheet="data-winner">
-									<div>
-										<div class="text-center front">
-											<h4 class="text-center text-white">
-												<span data-websheet-text="rank"></span># <br> 
-												<span data-websheet-text="name"></span>
-											</h4>
-											<img data-websheet-bind:src="avatar" class="img-fluid rounded-circle w-50" alt="second-winner">
-											<div class="d-flex justify-content-center mt-n4">
-												<div class="p-2 bg-white rounded-lg">
-													<span data-websheet-text="point"></span> pts
-												</div>
-											</div>
-											<div class="rounded-circle shadow-avatar"></div>
-										</div>
-										<div class="text-center">
-											<img data-websheet-bind:src="podium_img" class="img-fluid" alt="">
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div><!--end row-->
-				<div class="row d-lg-none">
-					<div class="col-4 mb-5" data-websheet="data-winner">
+				<div class="row">
+					<div class="col-md-12 text-center">
 						<div class="text-center">
-							<strong class="text-center text-white">
-								<span data-websheet-text="rank"></span># <br> 
-								<span data-websheet-text="name"></span>
-							</strong>
-							<img data-websheet-bind:src="avatar" class="img-fluid rounded-circle" alt="second-winner">
-							<div class="d-flex justify-content-center mt-n4">
-								<div class="p-2 bg-white rounded-lg">
-									<span data-websheet-text="point"></span> pts
-								</div>
-							</div>
+							<a href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/alibaba-cloud.png" alt="alibaba-cloud.png" height="20px" data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate"></a>
+							
+							<br>
+							<img class="img-fluid aos-init aos-animate" src="../assets/images/re-cloud/juara.png" alt="juara.png" data-aos="fade-up" data-aos-delay="350">
 						</div>
 					</div>
 				</div>
@@ -210,15 +177,22 @@
 													<span data-websheet-text="point"></span> pts
 											</div>
 											<div class="d-flex align-items-center">
-												<h2 class="mb-0 mr-5 text-muted-50"><span data-websheet-text="rank"></span>#</h2>
+												<h2 class="mb-0 mr-5 text-muted-50">#<span data-websheet-text="rank"></span></h2>
 												<div>
-													<h4 class="title mb-0"><span data-websheet-text="name"></span></h4>
+													<h4 class="title mb-0">
+														<span data-websheet-if="Is Label?">
+															<img data-websheet-bind:src="label_img" width="20px" alt="">
+														</span>
+														<span data-websheet-text="name"></span>
+													</h4>
 													<a data-websheet-bind:href="website_link" class="text-secondary mb-0" data-websheet-text="website_link"></a>
 												</div>
 											</div>
 										</div>
 										<div class="col-md-2 d-none d-md-block">
-											<h4 class="mb-0 text-primary"><i data-websheet-if="Is First?" class="fa fa-trophy"></i> <span data-websheet-text="point"></span> pts</h4>
+											<h4 class="mb-0 text-primary">
+												<span data-websheet-text="point"></span> pts
+											</h4>
 										</div>
 									</div>
 								</div>
@@ -315,6 +289,7 @@
 				query,
 				aliases: {
 					'Is First?': row => row['rank'].value === 1,
+					'Is Label?': row => row['label_img'].value !== '',
 				}
 									
 			})
