@@ -99,6 +99,24 @@
 	</head>
 
 	<body>
+
+		<!-- Websheet Template -->
+		<div data-websheet-template="winner-template">
+			<div data-websheet-on:loading>
+				<p class="mb-0 text-center text-white">Loading...</p>
+			</div>
+			<div data-websheet-on:error>
+				<p class="mb-0 text-center text-white">An error occured</p>
+			</div>
+			<div data-websheet-on:loaded>
+				<h3 class="text-white text-center mt-2 mb-0" data-websheet-text="name"></h3>
+				<p class="text-center mb-0"><a data-websheet-bind:href="website_link" target="_blank" class="text-white" data-websheet-text="website_link"></a></p>
+				<div class="d-flex justify-content-end">
+					<div class="badge-pts"><span data-websheet-text="point"></span> pts</div>
+				</div>
+			</div>
+		</div>
+		<!-- ./ Websheet Template -->
 		
 		<!-- Share Button -->
 		<div id="share"></div>
@@ -117,7 +135,7 @@
 		<!-- Navbar End -->
 
 		<!-- Megatron Start -->
-		<section class="pt-4 border-0 bg-rewards pyro">
+		<section class="pt-4 pb-2 border-0 bg-rewards pyro">
 			<div class="before"></div>
 			<div class="after"></div>
 			<div class="container mt-100">
@@ -128,7 +146,33 @@
 						</div>
 					</div><!--end col-->
 				</div><!--end row-->
-				<div class="row">
+				<div class="row d-none d-lg-flex">
+					<div class="col-md-4">
+						<div class="text-center mb-3">
+							<img src="../assets/images/re-cloud/1.png" alt="first winner icon">
+						</div>
+						<div class="bg-primary p-2 rounded shadow mb-3" data-websheet="data-first-winner">
+							<div data-websheet-render="winner-template"></div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="text-center mb-3">
+							<img src="../assets/images/re-cloud/2.png" alt="second winner icon">
+						</div>
+						<div class="bg-primary p-2 rounded shadow mb-3" data-websheet="data-second-winner">
+							<div data-websheet-render="winner-template"></div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="text-center mb-3">
+							<img src="../assets/images/re-cloud/3.png" alt="second winner icon">
+						</div>
+						<div class="bg-primary p-2 rounded shadow mb-3" data-websheet="data-third-winner">
+							<div data-websheet-render="winner-template"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row d-lg-none">
 					<div class="col-md-12 text-center">
 						<div class="text-center">
 							<a href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer"><img src="../assets/images/alibaba-cloud.png" alt="alibaba-cloud.png" height="20px" data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate"></a>
@@ -147,7 +191,7 @@
 			<div class="container my-4">
 				<div class="row">
 					<div class="col-12">
-						<h2 class="text-center mb-5 mt-3">100 Leaderboard</h2>
+						<h2 class="text-center mb-5 mt-3">16 Leaderboard</h2>
 					</div>
 					<div class="col-12 col-lg-4 mb-2">
 						<div class="d-flex">
@@ -274,11 +318,50 @@
 			$('#search').val(searchKeyword ? decodeURI(searchKeyword) : null);
 			if(searchKeyword){
 				$('#clear').toggle();
-				query = `select * where LOWER(B) contains LOWER('${searchKeyword}') limit 100`;
+				query = `select * where LOWER(B) contains LOWER('${searchKeyword}') limit 5`;
 			} else {
-				query = `select * limit 100`;
+				query = `select * limit 16`;
 			}
-			websheet('data-leaderboard', {  // <-- data source name
+
+
+			/* Websheet Function Groups */
+			websheet('data-first-winner', {
+									
+				// URL of the spreadsheet
+				url: urlSheet,
+									
+				// Spreadsheet tab name
+				sheet: 'List Leaderboard',
+				caching: false,  // disable caching
+				query: `select * where LOWER(E) contains LOWER('../assets/images/re-cloud/1.png') LIMIT 1`
+									
+			})
+			
+			websheet('data-second-winner', {
+									
+				// URL of the spreadsheet
+				url: urlSheet,
+									
+				// Spreadsheet tab name
+				sheet: 'List Leaderboard',
+				caching: false,  // disable caching
+				query: `select * where LOWER(E) contains LOWER('../assets/images/re-cloud/2.png') LIMIT 2`
+									
+			})
+			
+			websheet('data-third-winner', {
+									
+				// URL of the spreadsheet
+				url: urlSheet,
+									
+				// Spreadsheet tab name
+				sheet: 'List Leaderboard',
+				caching: false,  // disable caching
+				query: `select * where LOWER(E) contains LOWER('../assets/images/re-cloud/3.png') LIMIT 3`
+									
+			})
+
+			websheet('data-leaderboard', {
 									
 				// URL of the spreadsheet
 				url: urlSheet,
@@ -293,7 +376,8 @@
 				}
 									
 			})
-			websheet('data-count', {  // <-- data source name
+
+			websheet('data-count', {
 									
 				// URL of the spreadsheet
 				url: urlSheet,
@@ -303,7 +387,9 @@
 				caching: false,  // disable caching
 									
 			})
-			websheet('data-winner', {  // <-- data source name
+
+
+			websheet('data-winner', {
 									
 				// URL of the spreadsheet
 				url: urlSheet,
@@ -314,6 +400,9 @@
 				caching: false,  // disable caching
 									
 			})
+			/* ./ Websheet Function Groups */
+
+			/* Seacrhing Function Groups */
 			$('#search').keyup(function(e){
 				if(e.keyCode == 13)
 				{
@@ -326,10 +415,13 @@
 					window.location.href = `${base}?search=${queryTxt}`
 				}
 			})
+
 			
 			$('#clear').click('toggle', function(){
 				window.location.href = `${base}`
 			});
+			/* ./ Searching Function Groups */
+
 
 			function getUrlVars()
 			{
