@@ -26,11 +26,18 @@ $(document).ready(function( $ ) {
 		delay: 10,
 		time: 1000
 	});
+	// $('.daftar').click(function(e) {
+	// 	e.preventDefault();
+	// 	fbq('trackCustom', 'DaftarReCLoud');
+	// 	setTimeout(() => {
+	// 		window.open('https://apps.codepolitan.com/user/login?callback=re-cloud', '_blank');
+	// 	}, 500);
+	// });
 	$('.daftar').click(function(e) {
 		e.preventDefault();
 		fbq('trackCustom', 'DaftarReCLoud');
 		setTimeout(() => {
-			window.open('https://apps.codepolitan.com/user/login?callback=re-cloud', '_blank');
+			window.open('https://re-cloud.id/leaderboard', '_blank');
 		}, 500);
 	});
 });
