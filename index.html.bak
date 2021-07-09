@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta name="robots" content="all">
+
+		<title>Re-Cloud Challenges Indonesia - “Enabling Happiness and Productivity at Home #StayAtHome”</title>
+		<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+
+		<!-- Primary Meta Tags -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Re-Cloud Challenges Indonesia, Virtual Cloud Challenges terbesar se-Indonesia di tahun 2021 ini. Yuk ikutan tuntaskan setiap tantangannya untuk memenangkan hadiah dengan total $13,000! Daftar sekarang juga https://re-cloud.id">
+		<meta name="keywords" content="Challenges, 2021, Rewind, Juara, Pekerjaan, Hadiah, Re-Cloud Challenges, Indonesia, AlibabaCloud, Codepolitan, Virtual Cloud Challenges">
+		<!-- ./ Primary Meta Tags -->
+		
+		<!-- S:fb meta -->
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="https://re-cloud.id/assets/images/re-cloud/about.jpg" />
+		<meta property="og:title" content="Re-Cloud Challenges Indonesia" />
+		<meta property="og:description" content="Yuk ikutan tuntaskan setiap tantangan Re-Cloud, dan menangkan hadiah dengan total $13,000! Daftar sekarang!">
+		<meta property="og:url" content="https://re-cloud.id" />
+		<meta property="og:site_name" content="re-cloud.id" />
+
+		<!-- S:tweeter card -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="https://re-cloud.id/" />
+		<meta name="twitter:creator" content="@re_cloudid">
+		<meta name="twitter:title" content="Re-Cloud Challenges Indonesia" />
+		<meta name="twitter:description" content="Yuk ikutan tuntaskan setiap tantangan Re-Cloud, dan menangkan hadiah dengan total $13,000! Daftar sekarang!" />
+		<meta name="twitter:image" content="https://re-cloud.id/assets/images/re-cloud/about.jpg" />
+		<!-- E:tweeter card -->
+
+		
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '496143660723921');
+			fbq('track', 'PageView')
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=496143660723921&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '347646795880654');
+			fbq('track', 'PageView')
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=347646795880654&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-CG1XS7DY5B"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-CG1XS7DY5B');
+		</script>
+
+		<!-- Bootstrap -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<!-- Icons -->
+		<link href="assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.3/css/line.css">
+		<!-- Main Css -->
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+		<link href="assets/css/colors/orange.css" rel="stylesheet" id="color-opt">
+		<!-- Social JS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials.css">
+		<link rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials-theme-flat.css">
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Righteous&display=swap" rel="stylesheet">
+		<!-- Animate CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/custom.css">
+	</head>
+
+	<body>
+		
+		<!-- Share Button -->
+		<div id="share"></div>
+		
+		<!-- Navbar Start -->
+		<header id="topnav" class="defaultscroll sticky">
+			<div class="container">
+				<!-- Logo container-->
+				<div>
+					<a class="logo" href="https://re-cloud.id/">
+						<img src="assets/images/re-cloud/re-cloud_white.png" class="l-light" alt="re-cloud" height="30">
+						<img src="assets/images/re-cloud/re-cloud.png" class="l-dark" alt="re-cloud" height="30">
+					</a>
+				</div>
+				<div class="buy-button logo d-none d-md-block">
+					<a href="javascript:void(0)" target="_blank" class="daftar btn btn-light l-light">LEADERBOARD</a>
+					<a href="javascript:void(0)" target="_blank" class="daftar btn btn-primary l-dark">LEADERBOARD</a>
+				</div>
+				<!-- End Logo container-->
+				<div class="menu-extras">
+					<div class="menu-item">
+						<!-- Mobile menu toggle-->
+						<a class="navbar-toggle">
+							<div class="lines">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</a>
+						<!-- End mobile menu toggle-->
+					</div>
+				</div>
+
+				<div id="navigation">
+					<!-- Navigation Menu-->
+					<div class="d-md-none m-4 text-right">
+						<a href="javascript:void(0)" target="_blank" class="daftar btn btn-primary">LIHAT LEADERBOARD</a>
+					</div>
+					<ul class="navigation-menu justify-content-end nav-light">
+						<li><a data-scroll href="#misi">Misi</a></li>
+						<li><a data-scroll href="#hadiah">Hadiah</a></li>
+						<li><a data-scroll href="#kategori-submission">Submission</a></li>
+						<li><a data-scroll href="#detail-kompetisi">Kompetisi</a></li>
+						<li><a data-scroll href="#timeline">Timeline</a></li>
+						<li><a data-scroll href="#faq">FAQ</a></li>
+					</ul>
+				</div><!--end navigation-->
+			</div><!--end container-->
+		</header><!--end header-->
+		<!-- Navbar End -->
+
+		<!-- Megatron Start -->
+		<section class="pt-4 border-0 bg-dark-primary" id="megatron">
+			<div class="container mt-100">
+				<div class="row align-items-center">
+					<div class="col-md-6 offset-md-3">
+						<div class="title-heading mt-4 text-center">
+							<h1 class="heading mb-3 text-white text-shadow">THE BIGGEST VIRTUAL CLOUD CHALLENGES IN INDONESIA</h1>
+							<h3 class="text-white text-shadow animate__animated animate__pulse animate__infinite">Total Hadiah $ <span class="counter">13,000</span></h3>
+						</div>
+					</div><!--end col-->
+				</div><!--end row-->
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<img class="img-fluid" src="assets/images/re-cloud/jumbotron_logo.png" alt="jumbotron_logo.png">
+					</div>
+				</div>
+			</div><!--end container-->
+		</section><!--end section-->
+		<!-- Megatron End -->
+
+		<!-- Brands Header Start -->
+		<section class="pb-2">
+			<div class="container my-4">
+				<div class="row">
+					<div class="col-12">
+						<p class="text-center text-muted mb-0">Organized by:</p>
+					</div>
+					<div class="col-12 d-flex align-items-center justify-content-center">
+							<a class="d-block p-4" href="https://int.alibabacloud.com/m/1000229843/" target="_blank" rel="noopener noreferrer">
+								<img class="img-fluid" src="assets/images/alibaba-cloud-small.png" alt="alibaba-cloud-small.png">
+							</a>
+							<a class="d-block p-4" href="https://www.codepolitan.com/" target="_blank" rel="noopener noreferrer">
+								<img class="img-fluid" src="assets/images/codepolitan_logo-small.png" alt="codepolitan_logo-small.png">
+							</a>
+					</div>
+				</div>
+			</div><!--end container-->
+		</section><!--end section-->
+		<!-- Brands Header End -->
+
+		<!-- About Start -->
+		<section class="py-4 " id="misi">
+			<div class="container mt-100 mt-60">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+						<img src="assets/images/re-cloud/about.jpg" class="img-fluid" alt="about.jpg" data-aos="fade-up" data-aos-delay="250">
+					</div><!--end col-->
+
+					<div class="col-lg-6 col-md-6">
+						<div class="title-heading mt-4">
+							<h1 class="heading mb-3 text-primary" data-aos="fade-up" data-aos-delay="255">Tentang Challenges</h1>
+							<p class="para-desc" data-aos="fade-up" data-aos-delay="260">
+								<strong>Re-Cloud Challenges Indonesia</strong> merupakan kompetisi pertama dari <a href="https://int.alibabacloud.com/m/1000229842/" target="_blank" class="text-primary">Alibaba Cloud di Indonesia</a> dengan misi edukasi masyarakat agar terbiasa menggunakan Layanan Awan (Cloud Service). Acara ini juga ditunjang dengan kelas online dan sertifikasi.</p>
+							<p class="para-desc" data-aos="fade-up" data-aos-delay="265">
+								<strong>Re-Cloud Challenges Indonesia</strong> adalah kompetisi dengan sekumpulan tantangan untuk ragam layanan awan dan sertifikasi yang disediakan oleh <a href="https://int.alibabacloud.com/m/1000229842/" target="_blank" class="text-primary" rel="noopener noreferrer">Alibaba Cloud</a>. Acara ini bisa diikuti oleh seluruh warga Indonesia dari mulai professional hingga mahasiswa untuk turut berkompetisi. Mengusung tema <strong>Enabling Happiness and Productivity at Home #StayAtHome</strong>, Re-Cloud Challenges berupaya menantang seluruh peserta untuk mempublikasikan karya website terbaik mereka di layanan ECS Cloud Server <a href="https://int.alibabacloud.com/m/1000229842/" target="_blank" class="text-primary" rel="noopener noreferrer">Alibaba Cloud</a> yang menunjang keceriaan dan produktivitas di kala pandemi Covid-19 di rumah. 
+							</p>
+						</div>
+					</div><!--end col-->
+				</div><!--end row-->
+			</div><!--end container-->
+		</section><!--end section-->
+		<!-- About End -->
+		
+		<!-- Teaser Start -->
+		<section class="py-4" id="video-teaser">
+			<div class="container mt-100 mt-60">
+				<div class="row align-items-center">
+					<div class="col-12 text-center">
+						<div class="section-title mb-4 pb-2">
+							<h1 class="heading mb-3" data-aos="fade-up" data-aos-delay="250"><span class="text-primary">Re-cloud Challenges</span> <span class="text-codepolitan">Teaser</span></h1>
+						</div>
+					</div><!--end col-->
+					<div class="col-12 mt-4 pt-2 mt-sm-0 pt-sm-0" data-aos="fade-up" data-aos-delay="255">
+						<div class="video-wrapper">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/l7fwuDlbUKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div><!--end col-->
+				</div><!--end row-->
+			</div><!--end container-->
+		</section><!--end section-->
+		<!-- Teaser End -->
+		
+		<!-- Tema Start -->
+		<section class="py-4 bg-primary mt-100" id="tema">
+			<div class="container mb-100 mt-100">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-6">
+						<div class="title-heading mt-4">
+							<h1 class="heading mb-3 text-white" data-aos="fade-up" data-aos-delay="300">“Enabling Happiness and Productivity at Home #StayAtHome”</h1>
+						</div>
+					</div><!--end col-->
+				</div><!--end row-->
+			</div><!--end container-->
+		</section><!--end section-->
+		<!-- Tema End -->
+
+		<!-- Hadiah Start -->
+		<section class="py-4 bg-rewards mt-n1" id="hadiah">
+			<div class="container mt-100 mt-60">
+
+				<div class="row align-items-start mb-4">
+					<div class="col-md-6">
+						<h2 class="text-center" data-aos="fade-up" data-aos-delay="300">Total Hadiah</h2>
+						<h1 class="title-nominal text-codepolitan text-center" data-aos="fade-up" data-aos-delay="300">$ <span class="counter">13,000</h1>
+						<div class="text-center">
+							<a href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer"><img src="assets/images/alibaba-cloud.png" alt="alibaba-cloud.png" height="20px" data-aos="fade-up" data-aos-delay="300"></a>
+							
+							<br>
+							<img class="img-fluid" src="assets/images/re-cloud/juara.png" alt="juara.png" data-aos="fade-up" data-aos-delay="350">
+						</div>
+					</div>
+					
+					<!-- Winner Order -->
+					<div class="col-md-6">
+						<!-- First Winner -->
+						<div class="row mb-4" data-aos="fade-up" data-aos-delay="300">
+							<div class="col-md-3 text-center">
+								<img class="img-fluid" src="assets/images/re-cloud/1.png" alt="1.png">
+							</div>
+							<div class="col-md-9">
+								<h2 class="text-primary">1st Winner <small class="text-secondary heading-small">(1 winner)</small></h2>
+								<p class="mb-0 heading-small">Uang Tunai Senilai $2,000</p>
+								<p class="mb-0 heading-small"><a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank">Alibaba Cloud</a> Credits Senilai $2,000</p> 
+								<p class="mb-0 heading-small">Official Merchandise Senilai $100</p>
+							</div>
+						</div>
+						
+						<!-- Second Winner -->
+						<div class="row mb-4" data-aos="fade-up" data-aos-delay="300">
+							<div class="col-md-3 text-center">
+								<img class="img-fluid" src="assets/images/re-cloud/2.png" alt="2.png">
+							</div>
+							<div class="col-md-9">
+								<h2 class="text-primary">2nd Winner <small class="text-secondary heading-small">(2 winner)</small></h2>
+								<p class="mb-0 heading-small">Uang Tunai Senilai $1,000</p>
+								<p class="mb-0 heading-small"><a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank">Alibaba Cloud</a> Credits Senilai $1,000</p> 
+								<p class="mb-0 heading-small">Official Merchandise Senilai $100</p>
+							</div>
+						</div>
+						
+						<!-- Third Winner -->
+						<div class="row mb-4" data-aos="fade-up" data-aos-delay="300">
+							<div class="col-md-3 text-center">
+								<img class="img-fluid" src="assets/images/re-cloud/3.png" alt="3.png">
+							</div>
+							<div class="col-md-9">
+								<h2 class="text-primary">3rd Winner <small class="text-secondary heading-small">(3 winner)</small></h2>
+								<p class="mb-0 heading-small">Uang Tunai Senilai $500</p>
+								<p class="mb-0 heading-small"><a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank">Alibaba Cloud</a> Credits Senilai $500</p> 
+								<p class="mb-0 heading-small">Official Merchandise Senilai $100</p>
+							</div>
+						</div>
+						
+						<!-- 10 Best -->
+						<div class="row mb-4" data-aos="fade-up" data-aos-delay="300">
+							<div class="col-md-3 text-center">
+								<span class="bg-primary circle-winner"></span>
+							</div>
+							<div class="col-md-9">
+								<h2 class="text-primary">10 Peserta Terbaik</h2>
+								<p class="mb-0 heading-small"><a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank">Alibaba Cloud</a> Credits Senilai $200</p>
+								<p class="mb-0 heading-small">Official Merchandise Senilai $100</p>
+							</div>
+						</div>
+					</div>
+					<!-- ./ Winner Order -->
+				</div><!--end row-->
+				
+				<div class="row align-items-start mt-100 mb-100">
+					<div class="col-md-8 offset-md-2">
+						<div class="section-title mb-4 pb-2">
+							<h1 class="heading mb-3 text-primary text-center" data-aos="fade-up" data-aos-delay="300">
+								Benefit Peserta <span class="text-codepolitan">Challenge</span>
+							</h1>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="row mb-3" data-aos="fade-up" data-aos-delay="300">
+							<div class="col-2 text-right">
+								<img src="assets/images/re-cloud/check-square-regular.png" alt="check-square-regular.png">
+							</div>
+							<div class="col-10">
+								<p class="heading-small">Beasiswa 8 Kelas Online Premium dengan Sertifikasi Internasional di <a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer">AlibabaCloud Edu</a> untuk semua peserta (Bisa diklaim sejak pertama kali registrasi peserta)</p>
+							</div>
+						</div>
+						<div class="row mb-3" data-aos="fade-up" data-aos-delay="300">
+							<div class="col-2 text-right">
+								<img src="assets/images/re-cloud/check-square-regular.png" alt="check-square-regular.png">
+							</div>
+							<div class="col-10">
+								<p class="heading-small">Beasiswa selama 3 bulan untuk Jalur Belajar Khusus di <a class="text-primary" href="https://www.codepolitan.com" target="_blank" rel="noopener noreferrer">CODEPOLITAN</a> untuk semua peserta (Bisa diklaim sejak pertama kali registrasi peserta)</p>
+							</div>
+						</div>
+						<div class="row mb-3" data-aos="fade-up" data-aos-delay="300">
+							<div class="col-2 text-right">
+								<img src="assets/images/re-cloud/check-square-regular.png" alt="check-square-regular.png">
+							</div>
+							<div class="col-10">
+								<p class="heading-small">Forum Diskusi QnA di Telegram Group untuk semua peserta (Bisa diklaim sejak pertama kali registrasi peserta)</p>
+							</div>
+						</div>
+						<div class="row mb-3" data-aos="fade-up" data-aos-delay="300">
+							<div class="col-2 text-right">
+								<img src="assets/images/re-cloud/check-square-regular.png" alt="check-square-regular.png">
+							</div>
+							<div class="col-10">
+								<p class="heading-small">Official Merchandise untuk 200 submission website pertama (Dikirim setelah program selesai)</p>
+							</div>
+						</div>
+						<div class="row mb-3" data-aos="fade-up" data-aos-delay="300">
+							<div class="col-2 text-right">
+								<img src="assets/images/re-cloud/check-square-regular.png" alt="check-square-regular.png">
+							</div>
+							<div class="col-10">
+								<p class="heading-small">Hadiah uang tunai dan Credits <a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer">Alibaba Cloud</a> untuk 6 orang pemenang dan 10 orang favorit dengan total hadiah senilai USD 13,000 (Dibagikan setelah program selesai)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div><!--end container-->
+		</section><!--end section-->
+		<!-- Hadiah End -->
+
+		<!-- Category Challenges Start -->
+		<section class="section" id="kategori-submission">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 text-center">
+						<div class="section-title mb-4 pb-2">
+							<h1 class="heading mb-3 text-codepolitan" data-aos="fade-up" data-aos-delay="250"><span class="text-primary">Kategori</span> Submission</h1>
+						</div>
+					</div><!--end col-->
+				</div><!--end row-->
+
+				<div class="row">
+					<div class="col-12 col-md-6">
+						<div class="sticky-bar position-sticky" data-aos="fade-right" data-aos-delay="260">
+							<img src="assets/images/re-cloud/kategori.jpg" class="img-fluid" alt="kategori.jpg">
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="260">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapseone-category" role="button">Blog</h4>
+								<p id="collapseone-category" class="collapse">Website yang memuat konten yang khas dan unik dari pemilik blog tersebut. Konten yang dimuat bisa  berupa tulisan, gambar, video atau konten lain di dalam blog atau websitenya.</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="265">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapsetwo-category" role="button">Business</h4>
+								<p id="collapsetwo-category" class="collapse">Website yang memuat informasi bisnis seperti penjelasan produk atau jasa, visi misi, dan halaman kontak.Web bisnis juga bertujuan untuk menginformasikan Promo menarik dan berita-berita seputar produk atau jasa yang dijual oleh bisnis tersebut.</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="270">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapsethree-category" role="button">Media/News</h4>
+								<p id="collapsethree-category" class="collapse">Website yang menyajikan informasi berita kejadian, opini dan lain  sebagainya. Media/News adalah website yang menampilkan informasi atau artikel yang mempunyai fitur berita, kategori berita, pencarian berita dan sebagainya.</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="275">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapsefour-category" role="button">Commerce</h4>
+								<p id="collapsefour-category" class="collapse">Website untuk jual beli barang/jasa, dan terdapat interaksi antara penjual dan pembeli untuk bertransaksi dengan layanan website tersebut. Fungsi dasarnya memiliki katalog produk/layanan, pengecekan ketersedian produk, pemesanan dan transaksi online. contohnya: Toko Online, Marketplace, Travel, Hotel, dsb</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="280">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapsefive-category" role="button">Landing Page</h4>
+								<p id="collapsefive-category" class="collapse">Website yang memuat informasi tentang produk/jasa tertentu yang cenderung lebih spesifik. Bisa juga dalam bentuk personal profile seperti CV Online dan juga informasi khusus. Tujuan utamanya adalah mengajak pengunjung untuk membeli produk, mengisi formulir, atau mempelajari informasi yang diberikan.</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="285">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapsesix-category" role="button">Portfolio</h4>
+								<p id="collapsesix-category" class="collapse">Website yang memuat hasil karya atau pekerjaan suatu individu atau kelompok. dam biasanya digunakan untuk meyakinkan mitra/klien dengan hasil kerja dan kualitas pekerjaan pemilik website. Jenis website ini banyak digunakan para profesional dan freelancer.</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="285">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapseseven-category" role="button">Wiki/Community/Forum</h4>
+								<p id="collapseseven-category" class="collapse">Website yang memuat konten yang dihasilkan dari interaksi antar pengguna di dalamnya. Biasanya digunakan untuk mencari  dan mendapatkan informasi terbaru, tips, atau tutorial dari satu atau beberapa topik tertentu.</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="290">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapseeight-category" role="button">E-learning/Online Course</h4>
+								<p id="collapseeight-category" class="collapse">Website yang dirancang untuk melakukan proses belajar mengajar secara online. Biasanya digunakan oleh perusahaan, instansi pendidikan dan layanan kursus online.</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="295">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapsenine-category" role="button">Game</h4>
+								<p id="collapsenine-category" class="collapse">Website yang dirancang memuat informasi dan atau memainkan suatu game berbasis web. Tidak ada batasan mengenai jenis game yang dipublikasikan, selama sesuai dengan norma dan nilai yang berlaku di Indonesia.</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="300">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapseten-category" role="button">Entertainment</h4>
+								<p id="collapseten-category" class="collapse">Website yang ditujukan sebagai media hiburan baik berupa gambar, audio, hingga video yang bertujuan untuk menghibur pengunjung website. Seperti podcast personal, vlog, dan sejenisnya.</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="305">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapseeleven-category" role="button">Portal</h4>
+								<p id="collapseeleven-category" class="collapse">Website yang ditujukan sebagai tempat berinteraksinya member khusus (mirip seperti forum dan komunitas) dan cenderung eksklusif untuk kalangan tertentu. Jika tidak menjadi member maka tidak bisa mengakses portal tersebut.</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="310">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapsetwelve-category" role="button">Productivity/Utilities</h4>
+								<p id="collapsetwelve-category" class="collapse">Website yang memuat layanan untuk kebutuhan personal maupun perusahaan yang membantu kebutuhan sehari hari. Seperti website timer, time tracking, virtual boards, scheduler, task management dan lain sebagainya.</p>
+							</div>
+						</div>
+						<div class="media key-feature align-items-center p-3 rounded shadow mb-2" data-aos="fade-up" data-aos-delay="315">
+							<div class="icon text-center rounded-circle mr-3">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code fea icon-ex-md text-primary"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+							</div>
+							<div class="media-body">
+								<h4 class="title mb-0" data-toggle="collapse" data-target="#collapsethirteen-category" role="button">Miscellaneous/Others</h4>
+								<p id="collapsethirteen-category" class="collapse">Website yang tidak termasuk kategori website di atas disebut masuk kategori ini. Silahkan pilih kategori ini bisa kesulitan menentukan website apa yang kamu submit.</p>
+							</div>
+						</div>
+					</div>
+				</div><!--end row-->
+			</div><!--end container-->
+		</section>
+		<!-- Category Challenges End -->
+		
+		<!-- Detail Penilaian Start -->
+		<section class="py-4 bg-light-grey" id="detail-kompetisi">
+			<div class="container mt-100 mt-60">
+				<div class="row align-items-center">
+					<div class="col-12">
+						<div class="title-heading mt-4" data-aos="fade-up" data-aos-delay="260">
+							<h1 class="heading mb-3 text-center text-codepolitan"><span class="text-primary">Detail</span> Tantangan</h1>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0 order-md-2">
+						<img src="assets/images/re-cloud/score.png" class="img-fluid" alt="score.png" data-aos="fade-up" data-aos-delay="265">
+					</div><!--end col-->
+					<div class="col-lg-6 col-md-6 order-md-1">
+						<div class="faq-content mt-4">
+							<div class="accordion" id="accordionEvaluation">
+								<div class="card border-0 rounded mb-2 shadow-sm" data-aos="fade-up" data-aos-delay="260">
+										<a data-toggle="collapse" data-target="#collapseone-evaluation" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapseone-evaluation">
+												<div class="card-header border-0 bg-light p-3 pr-5" id="headingone-evaluation">
+														<h6 class="title mb-0">Tantangan Ke-1</h6>
+												</div>
+										</a>
+										<div id="collapseone-evaluation" class="collapse" aria-labelledby="headingone-evaluation" data-parent="#accordionEvaluation">
+												<div class="card-body px-2 py-4">
+														<p class=" mb-0 faq-ans">Buat Twibbonize di <a class="text-primary" href="https://www.twibbonize.com/recloudchallengesindonesia" target="_blank"> [link]</a> dari fotomu, dan upload di media sosial berikut Instagram/Facebook/Twitter/LinkedIn. Tag akun IG: @re_cloud.id Twitter: @re_cloudid dan @codepolitan. Dapatkan 100 poin dengan tantangan ini.</p>
+												</div>
+										</div>
+								</div>
+
+								<div class="card border-0 rounded mb-2 shadow-sm" data-aos="fade-up" data-aos-delay="260">
+										<a data-toggle="collapse" data-target="#collapsetwo-evaluation" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsetwo-evaluation">
+												<div class="card-header border-0 bg-light p-3 pr-5" id="headingtwo-evaluation">
+														<h6 class="title mb-0">Tantangan Ke-2</h6>
+												</div>
+										</a>
+										<div id="collapsetwo-evaluation" class="collapse" aria-labelledby="headingtwo-evaluation" data-parent="#accordionEvaluation">
+												<div class="card-body px-2 py-4">
+														<p class=" mb-0 faq-ans">Buat akun di alibabacloud.com dan aktifkan Cloud Server ECS <a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer">Alibaba Cloud</a>. Lengkapi data yang diminta dan kartu kredit atau virtual account untuk aktifkan Cloud Server ECS <a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer">Alibaba Cloud</a> secara Gratis! Bila kamu mahasiswa, kamu bisa mengaktifkan Cloud Server dengan mengisi data diri mu lengkap sebagai mahasiswa.</p>
+														<br>
+														<p class=" mb-0 faq-ans">Daftar di Re-Cloud Challenges Indonesia, dan isikan semua data dengan lengkap. Disini kamu akan mendapatkan Beasiswa berupa voucher online course premium di <a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer">Alibaba Cloud Edu</a> dan Beasiswa belajar di Course <a class="text-primary" href="https://codepolitan.com" target="_blank" rel="noopener noreferrer">Codepolitan</a>.</p>
+														<br>
+														<p class=" mb-0 faq-ans"> Panduan mendaftar AlibabaCloud untuk profesional : <a class="text-primary" href="https://youtu.be/CeqCO1P-Ts8" target="_blank" rel="noopener noreferrer">https://youtu.be/CeqCO1P-Ts8</a> 
+															Panduan mendaftar AlibabaCloud untuk mahasiswa : <a class="text-primary" href="https://youtu.be/SEsAJzWDeR0" target="_blank" rel="noopener noreferrer">https://youtu.be/SEsAJzWDeR0</a></p>
+												</div>
+										</div>
+								</div>
+
+								<div class="card border-0 rounded mb-2 shadow-sm" data-aos="fade-up" data-aos-delay="260">
+										<a data-toggle="collapse" data-target="#collapsethree-evaluation" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsethree-evaluation">
+												<div class="card-header border-0 bg-light p-3 pr-5" id="headingthree-evaluation">
+														<h6 class="title mb-0">Tantangan Ke-3</h6>
+												</div>
+										</a>
+										<div id="collapsethree-evaluation" class="collapse" aria-labelledby="headingthree-evaluation" data-parent="#accordionEvaluation">
+												<div class="card-body px-2 py-4">
+														<p class=" mb-0 faq-ans">Ikuti rangkaian webinar atau workshop Re-Cloud Challenges Indonesia secara live untuk dapat 100 poin</p>
+														<br>
+														<ul class="text-primary">
+															<li>27 Jan 2021 : Workshop: Explaining How to develop a website and optimize in Alibaba Cloud</li>
+															<li>5 Februari 2021 : Webinar: How to Start Creating Application with Alibaba Cloud Products</li>
+															<li>15 Februari 2021 : Workshop: How to Attract More User to our Website</li>
+														</ul>
+												</div>
+										</div>
+								</div>
+
+								<div class="card border-0 rounded mb-2 shadow-sm" data-aos="fade-up" data-aos-delay="260">
+										<a data-toggle="collapse" data-target="#collapsefour-evaluation" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsefour-evaluation">
+											<div class="card-header border-0 bg-light p-3 pr-5" id="headingfour-evaluation">
+												<h6 class="title mb-0">Tantangan Ke-4</h6>
+											</div>
+										</a>
+										<div id="collapsefour-evaluation" class="collapse" aria-labelledby="headingfour-evaluation" data-parent="#accordionEvaluation">
+											<div class="card-body px-2 py-4">
+												<p class=" mb-0 faq-ans">Upload dan hosting website kamu di Cloud Server ECS <a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer">Alibaba Cloud</a> milikmu, buat postingan di media sosial Instagram pribadi kamu berupa screenshot website disertai deskripsi mengenai websitemu, dan jangan lupa tag @re_cloud.id @codepolitan dan hashtag #Re_CloudChallengesIndonesia.</p>
+												<br>
+												<p class=" mb-0 faq-ans">Lalu daftarkan di tab menu “Website Submission” dan lengkapi datanya di dashboard Re-Cloud Challenges dan pastikan terpasang domain untuk website nya. Kamu bisa gunakan domain yang sudah kamu punya dan di pointing ke ECS mu, atau beli domain .cyou seharga $0.01 <a href="https://www.alibabacloud.com/domain/cyou" target="_blank" class="text-primary">disini</a>.</p>
+												<br>
+												<p class=" mb-0 faq-ans">Khusus buat akun mahasiswa, kamu bisa submit hanya dengan IP Address Public ECS kamu saja.</p>
+												<br>
+												<p class=" mb-0 faq-ans">Misi utama kamu adalah mendapatkan jumlah “Like/Love” sebanyak mungkin, hingga kamu bisa mendapatkan maksimal 400 poin. Kamu bisa submit website karya pribadimu sebanyak mungkin untuk memperbesar peluang memenangkan kompetisi.</p>
+											</div>
+										</div>
+								</div>
+
+								<div class="card border-0 rounded mb-2 shadow-sm" data-aos="fade-up" data-aos-delay="260">
+										<a data-toggle="collapse" data-target="#collapsefive-evaluation" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsefive-evaluation">
+												<div class="card-header border-0 bg-light p-3 pr-5" id="headingfive-evaluation">
+														<h6 class="title mb-0">Tantangan Ke-5</h6>
+												</div>
+										</a>
+										<div id="collapsefive-evaluation" class="collapse" aria-labelledby="headingfive-evaluation" data-parent="#accordionEvaluation">
+												<div class="card-body px-2 py-4">
+													<p class=" mb-0 faq-ans">
+														Ikuti kelas Online di <a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer">AlibabaCloud Edu</a>  dan selesaikan kuisnya sampai lulus untuk mendapatkan sertifikasi dari <a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer">Alibaba Cloud</a>. Voucher yang kamu dapatkan saat pendaftaran bisa kamu gunakan untuk belajar secara gratis di kelas online yang telah ditentukan. Berikut adalah kelas online yang bisa kamu tuntaskan:
+													</p>
+													<ul class="">
+														<li><a class="text-primary" href="https://edu.alibabacloud.com/certification/clouder_cloudserver?spm=a3c0i.14896727.9737592930.1.11a7110eQiaYtW" target="_blank" rel="noopener noreferrer">Operate and Manage a Cloud Server</a></li>
+														<li><a class="text-primary" href="https://edu.alibabacloud.com/certification/clouder_dynamicweb?spm=a3c0i.14896727.9737592930.8.11a7110eQiaYtW" target="_blank" rel="noopener noreferrer">Using ECS to Construct a Dynamic Website</a></li>
+														<li><a class="text-primary" href="https://edu.alibabacloud.com/certification/clouder_oss?spm=a3c0i.14896727.9737592930.18.11a7110eQiaYtW" target="_blank" rel="noopener noreferrer">Operate and Manage Object Storage on the Cloud</a></li>
+														<li><a class="text-primary" href="https://edu.alibabacloud.com/certification/clouder_staticweb?spm=a3c0i.14896727.9737592930.10.11a7110eQiaYtW" target="_blank" rel="noopener noreferrer">Using OSS to Publish a Static Website in China</a></li>
+														<li><a class="text-primary" href="https://edu.alibabacloud.com/certification/clouder-relational-database?spm=a3c0i.14896727.9737592930.30.11a7110eQiaYtW" target="_blank" rel="noopener noreferrer">Alibaba Cloud Relational Database Service Technical Operations</a></li>
+														<li><a class="text-primary" href="https://edu.alibabacloud.com/certification/clouder_mysql?spm=a3c0i.14896727.9737592930.23.11a7110eQiaYtW" target="_blank" rel="noopener noreferrer">MySQL Database Concepts and Operations</a></li>
+														<li><a class="text-primary" href="https://edu.alibabacloud.com/certification/clouder_migrateapp?spm=a3c0i.14896727.9737592930.55.24b1110eq6pyqQ" target="_blank" rel="noopener noreferrer">Migrate Your Application to Alibaba Cloud</a></li>
+													</ul>
+													<p class=" mb-0 faq-ans">Minimal kamu menyelesaikan 1 kelas online dan tersertifikasi untuk mendapatkan 1000 poin dan submit di tab menu “Certification Submission” di dashboard Re-Cloud Challenges.</p>
+												</div>
+										</div>
+								</div>
+
+								<div class="card border-0 rounded mb-2 shadow-sm" data-aos="fade-up" data-aos-delay="260">
+									<a data-toggle="collapse" data-target="#collapsesix-evaluation" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsesix-evaluation">
+										<div class="card-header border-0 bg-light p-3 pr-5" id="headingsix-evaluation">
+												<h6 class="title mb-0">Tantangan Ke-6</h6>
+										</div>
+									</a>
+									<div id="collapsesix-evaluation" class="collapse" aria-labelledby="headingsix-evaluation" data-parent="#accordionEvaluation">
+										<div class="card-body px-2 py-4">
+												<p class=" mb-0 faq-ans">Terus sempurnakan website yang kamu submit tidak hanya secara tampilan, tapi juga konten di dalamnya sampai batas waktu submission ditutup. Semakin unik dan bermanfaat website yang kamu miliki maka akan semakin tinggi penilaian poin dari Juri yang akan diberikan. Total poin yang bisa kamu dapatkan di penjurian adalah 2400 poin.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!--end col-->
+				</div><!--end row-->
+			</div><!--end container-->
+		</section><!--end section-->
+		<!-- Detail Penilaian End -->
+
+		
+		<!-- Timeline Start -->
+		<section class="py-4 " id="timeline">
+			<div class="container mt-100 mt-60">
+				<div class="row">
+					<div class="col-12">
+						<div class="title-heading mt-4" data-aos="fade-up" data-aos-delay="260">
+							<h1 class="heading mb-4 text-center"><span class="text-primary">Timeline</span></h1>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+						<div class="sticky-bar position-sticky" data-aos="fade-up" data-aos-delay="250">
+							<img src="assets/images/re-cloud/timeline.jpg" class="img-fluid" alt="timeline.jpg">
+						</div>
+					</div><!--end col-->
+					<div class="col-12 col-md-6">
+						<div class="card event-schedule rounded border mb-3" data-aos="fade-up" data-aos-delay="260">
+							<div class="card-body">
+								<div class="media align-items-center">
+									<ul class="date text-center text-primary mr-3 mb-0 list-unstyled">
+										<li class="day font-weight-bold mb-2">11</li>
+										<li class="month font-weight-bold">JAN</li>
+									</ul>
+									<div class="media-body content">
+										<h4 class="mt-2">
+											<p class="text-dark title">Launching Re-Cloud Challenges Indonesia</p>
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card event-schedule rounded border mb-3" data-aos="fade-up" data-aos-delay="260">
+							<div class="card-body">
+								<div class="media align-items-center">
+									<ul class="date text-center text-primary mr-3 mb-0 list-unstyled">
+										<li class="day font-weight-bold mb-2">27</li>
+										<li class="month font-weight-bold">JAN</li>
+									</ul>
+									<div class="media-body content">
+										<h4 class="mt-2">
+											<p class="text-dark title">Workshop Session 1: Explaining How to develop a website and optimize in <a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer">Alibaba Cloud</a></p>
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card event-schedule rounded border mb-3" data-aos="fade-up" data-aos-delay="260">
+							<div class="card-body">
+								<div class="media align-items-center">
+									<ul class="date text-center text-primary mr-3 mb-0 list-unstyled">
+										<li class="day font-weight-bold mb-2">05</li>
+										<li class="month font-weight-bold">FEB</li>
+									</ul>
+									<div class="media-body content">
+										<h4 class="mt-2">
+											<p class="text-dark title">Webinar: How to Start Creating Application with Alibaba Cloud Products</p>
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card event-schedule rounded border mb-3" data-aos="fade-up" data-aos-delay="260">
+							<div class="card-body">
+								<div class="media align-items-center">
+									<ul class="date text-center text-primary mr-3 mb-0 list-unstyled">
+										<li class="day font-weight-bold mb-2">15</li>
+										<li class="month font-weight-bold">FEB</li>
+									</ul>
+									<div class="media-body content">
+										<h4 class="mt-2">
+											<p class="text-dark title">Workshop and Mentoring 2: How to Attract More User to our Website</p>
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card event-schedule rounded border mb-3" data-aos="fade-up" data-aos-delay="260">
+							<div class="card-body">
+								<div class="media align-items-center">
+									<ul class="date text-center text-primary mr-3 mb-0 list-unstyled">
+										<li class="day font-weight-bold mb-2">21</li>
+										<li class="month font-weight-bold">FEB</li>
+									</ul>
+									<div class="media-body content">
+										<h4 class="mt-2">
+											<p class="text-dark title">Closing Submission</p>
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card event-schedule rounded border mb-3" data-aos="fade-up" data-aos-delay="260">
+							<div class="card-body">
+								<div class="media align-items-center">
+									<ul class="date text-center text-primary mr-3 mb-0 list-unstyled">
+										<li class="day font-weight-bold mb-2" style="font-size: 13px;">22 - 24</li>
+										<li class="month font-weight-bold">FEB</li>
+									</ul>
+									<div class="media-body content">
+										<h4 class="mt-2">
+											<p class="text-dark title">Judgement week</p>
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card event-schedule rounded border mb-3" data-aos="fade-up" data-aos-delay="260">
+							<div class="card-body">
+								<div class="media align-items-center">
+									<ul class="date text-center text-primary mr-3 mb-0 list-unstyled">
+										<li class="day font-weight-bold mb-2">03</li>
+										<li class="month font-weight-bold">MAR</li>
+									</ul>
+									<div class="media-body content">
+										<h4 class="mt-2">
+											<p class="text-dark title">Closing & Announce the Winner</p>
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!--end col-->
+				</div><!--end row-->
+			</div><!--end container-->
+		</section><!--end section-->
+		<!-- Timeline End -->
+
+		
+		<!-- FAQ Start -->
+		<section class="py-4 bg-light-grey" id="faq">
+			<div class="container mt-100 mt-60">
+				<div class="row">
+					<div class="col-12">
+						<div class="title-heading mt-4" data-aos="fade-up" data-aos-delay="260">
+							<h1 class="heading mb-4 text-center"><span class="text-primary">FAQ</span></h1>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+						<div class="sticky-bar position-sticky" data-aos="fade-up" data-aos-delay="260">
+							<img src="assets/images/re-cloud/faq.png" class="img-fluid" alt="faq.png">
+						</div>
+					</div><!--end col-->
+					<div class="col-lg-6 col-md-6">
+						
+						<div class="faq-content mt-4">
+							<div class="accordion" id="accordion-faq">
+									<div data-aos-delay="260" data-toggle="collapse" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapseone-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapseone-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingone-faq">
+															<h6 class="title mb-0">Siapa yang boleh ikut?</h6>
+													</div>
+											</a>
+											<div id="collapseone-faq" class="collapse" aria-labelledby="headingone-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Semua warga negara Indonesia dari mulai mahasiswa sampai profesional dengan berbagai profesi.</p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="270" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapsetwo-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsetwo-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingtwo-faq">
+															<h6 class="title mb-0">Apakah ada teknologi yang ditentukan untuk websitenya?</h6>
+													</div>
+											</a>
+											<div id="collapsetwo-faq" class="collapse" aria-labelledby="headingtwo-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Tidak ada batasan mengenai teknologi, yang diutamakan adalah fungsionalitas website dan sesuai dengan tema dan kategori yang ditentukan.</p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="280" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapsethree-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsethree-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingthree-faq">
+															<h6 class="title mb-0">Apakah Re-Cloud Challenges berbayar bagi peserta?</h6>
+													</div>
+											</a>
+											<div id="collapsethree-faq" class="collapse" aria-labelledby="headingthree-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Tidak. Peserta dapat mengikuti secara GRATIS dari awal sampai akhir.</p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="290" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapsefour-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsefour-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingfour-faq">
+															<h6 class="title mb-0">Apakah website yang dipublish menjadi milik Re-Cloud Challenges?</h6>
+													</div>
+											</a>
+											<div id="collapsefour-faq" class="collapse" aria-labelledby="headingfour-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Tidak. Website dan source code tetap milik peserta.</p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="300" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapsefive-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsefive-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingfive-faq">
+															<h6 class="title mb-0">Apakah boleh diikuti sebagai tim?</h6>
+													</div>
+											</a>
+											<div id="collapsefive-faq" class="collapse" aria-labelledby="headingfive-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Diperbolehkan. Bisa menggunakan satu akun atau masing-masing anggota tim membuat akunnya.</p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="310" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapsesix-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsesix-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingfive-faq">
+															<h6 class="title mb-0">Apakah boleh submit lebih dari satu website?</h6>
+													</div>
+											</a>
+											<div id="collapsesix-faq" class="collapse" aria-labelledby="headingfive-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Boleh. Bisa menggunakan virtual host di ECS dan bisa menggunakan akun yang berbeda. Untuk lebih jelasnya kamu bisa mengikuti course dari <a class="text-primary" href="https://www.codepolitan.com" target="_blank" rel="noopener noreferrer">Codepolitan</a> saat kamu register.</p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="320" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapseseven-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapseseven-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingfive-faq">
+															<h6 class="title mb-0">Apakah mahasiswa boleh mengikuti (karena menggunakan kartu kredit)?</h6>
+													</div>
+											</a>
+											<div id="collapseseven-faq" class="collapse" aria-labelledby="headingfive-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Boleh, kamu bisa mengaktifkan akunmu dan ECS-nya dengan informasi kamu sebagai mahasiswa (Kartu Tanda Mahasiswa dsb). Untuk lebih jelasnya kamu bisa mengikuti course dari <a class="text-primary" href="https://www.codepolitan.com" target="_blank" rel="noopener noreferrer">Codepolitan</a> saat kamu register</p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="330" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapseeight-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapseeight-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingfive-faq">
+															<h6 class="title mb-0">Apakah website yang disubmit wajib memiliki domain?</h6>
+													</div>
+											</a>
+											<div id="collapseeight-faq" class="collapse" aria-labelledby="headingfive-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Diwajibkan untuk memliki domain untuk website yang disubmit. Kamu bisa gunakan domain yang sudah kamu punya atau bisa juga membeli dengan harga $0.01 (belum termasuk pajak) untuk domain .cyou yang bisa dibeli <a class="text-primary" href="https://www.alibabacloud.com/domain/cyou" target="_blank">disini</a></p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="340" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapsenine-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsenine-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingfive-faq">
+															<h6 class="title mb-0">Saya mahasiswa, apakah wajib punya domain untuk submit?</h6>
+													</div>
+											</a>
+											<div id="collapsenine-faq" class="collapse" aria-labelledby="headingfive-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Khusus peserta yang status Mahasiswa diperbolehkan submit hanya dengan IP Public Address nya saja jika belum memiliki domain</p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="350" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapseten-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapseten-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingfive-faq">
+															<h6 class="title mb-0">Apa syarat website yang di submit?</h6>
+													</div>
+											</a>
+											<div id="collapseten-faq" class="collapse" aria-labelledby="headingfive-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Website dapat berfungsi optimal sesuai kategori & tidak melanggar hak cipta (website atau konten).</p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="360" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapseeleven-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapseeleven-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingfive-faq">
+															<h6 class="title mb-0">Apa saja yang dinilai dari website nya?</h6>
+													</div>
+											</a>
+											<div id="collapseeleven-faq" class="collapse" aria-labelledby="headingfive-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Ada empat faktor yang dinilai, yaitu: Functionality, Impact, Creativity/Originality, UI/UX.</p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="370" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapsetwelve-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsetwelve-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingfive-faq">
+															<h6 class="title mb-0">Apa saja yang didapatkan oleh peserta?</h6>
+													</div>
+											</a>
+											<div id="collapsetwelve-faq" class="collapse" aria-labelledby="headingfive-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Beasiswa belajar di <a class="text-primary" href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer">AlibabaCloud EDU</a> & <a class="text-primary" href="https://www.codepolitan.com" target="_blank" rel="noopener noreferrer">Codepolitan</a>, Merchandise official untuk 200 submission pertama, mentoring di webinar dan workshop selama event & hadiah ratusan juta rupiah untuk pemenang.</p>
+													</div>
+											</div>
+									</div>
+
+									<div data-aos="fade-up" data-aos-delay="380" class="card border-0 rounded mb-2 shadow-sm">
+											<a data-toggle="collapse" data-target="#collapsethirteen-faq" role="button" class="faq position-relative collapsed" aria-expanded="false" aria-controls="collapsethirteen-faq">
+													<div class="card-header border-0 bg-light p-3 pr-5" id="headingfive-faq">
+															<h6 class="title mb-0">Bagaimana cara pengumuman pemenangnya?</h6>
+													</div>
+											</a>
+											<div id="collapsethirteen-faq" class="collapse" aria-labelledby="headingfive-faq" data-parent="#accordionEvaluation">
+													<div class="card-body px-2 py-4">
+															<p class=" mb-0 faq-ans">Pemenang akan diumumkan secara live di acara penutupan dan ditampilkan di website Re-Cloud Challenges.</p>
+													</div>
+											</div>
+									</div>
+							</div>
+						</div>
+					</div><!--end col-->
+				</div><!--end row-->
+			</div><!--end container-->
+		</section><!--end section-->
+		<!-- FAQ End -->
+		
+		<!-- Register Start -->
+		<section class="pt-4 border-0 bg-registration">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-8 offset-md-2">
+						<h1 class="text-center heading mb-3 text-white text-shadow mt-100">SELAMAT KEPADA PEMENANG RE-CLOUD CHALLENGES INDONESIA</h1>
+						<h3 class="text-center text-white text-shadow mb-100">Terimakasih telah berpartisipasi dan berkembang bersama Re-Cloud Challenges Indonesia 2021. <br> Sampai jumpa di Re-Cloud berikutnya!</h3>
+						<div class="text-center mb-100">
+							<a class="daftar btn btn-primary btn-lg animate__animated animate__pulse animate__infinite" href="javascript:void(0)" target="_blank">LIHAT LEADERBOARD</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--end section-->
+		<section class="pt-4 border-0 bg-registration bg-image-registration">
+		</section><!--end section-->
+		<!-- Register End -->
+
+		<!-- Footer Start -->
+		<footer class="footer bg-white pb-0 mb-4">
+				<div class="container pb-4">
+					<div class="row pb-4">
+							<div class="col-lg-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+								<h1 class="heading text-primary">Talk to us</h1>
+								<p>
+									<strong>Email</strong>
+									<br>
+									<a href="mailto:info@codepolitan.com" class="text-primary">info@codepolitan.com</a>
+								</p>
+								<p>
+									<strong>Phone</strong>
+									<br>
+									<a href="tel:+628999488990" class="text-primary">+6289-9948-8990</a>
+								</p>
+								<p class="mb-0">
+									<strong>Social Media</strong>
+								</p>
+								<ul class="list-unstyled social-icon social mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.instagram.com/re_cloud.id/" target="_blank" class="rounded">
+											<i data-feather="instagram" class="fea icon-sm"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a href="https://twitter.com/re_cloudid" target="_blank" class="rounded">
+											<i data-feather="twitter" class="fea icon-sm"></i>
+										</a>
+									</li>
+							</ul>
+							</div><!--end col-->
+							<div class="col-lg-6 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+								<a class="logo-footer" href="https://re-cloud.id">
+									<img src="assets/images/re-cloud/re-cloud.png" alt="re-cloud" height="30">
+								</a>
+								<p class="mt-4">
+									<strong>Re-Cloud Challenge Indonesia</strong> adalah challenges pertama dari <a href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer" class="text-primary">AlibabaCloud di Indonesia</a> dengan misi edukasi masyarakat agar terbiasa menggunakan Layanan Awan (Cloud Service) dan juga sertifikasi yang disediakan.
+								</p>
+							</div><!--end col-->
+					</div><!--end row-->
+				</div><!--end container-->
+		</footer><!--end footer-->
+		<!-- Footer End -->
+
+		<!-- Back to top -->
+		<a href="#" class="btn btn-icon btn-primary back-to-top mb-4"><i data-feather="arrow-up" class="icons"></i></a>
+		<!-- Back to top -->
+
+		<!-- javascript -->
+		
+		<script src="assets/js/jquery-1.10.2.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<!-- Icons -->
+		<script src="assets/js/feather.min.js"></script>
+		<!-- Main Js -->
+		<script src="assets/js/app.js"></script>
+		<!-- Smooth Scroll -->
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+		<!-- AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<!-- Social JS -->
+		<script src="assets/js/jssocials-1.4.0/jssocials.min.js"></script>
+		<!-- Scroll & Counter Up -->
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<!-- Custom JS -->
+		<script src="assets/js/custom.js"></script>
+	</body>
+</html>
