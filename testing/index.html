@@ -89,6 +89,8 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
 		<link rel="stylesheet" href="../assets/js/jssocials-1.4.0/jssocials.css">
 		<link rel="stylesheet" href="../assets/js/jssocials-1.4.0/jssocials-theme-flat.css">
+    <!-- websheet.js -->
+		<script src="https://cdn.jsdelivr.net/gh/pierreavn/websheetjs/dist/websheet.min.js"></script>
 		<!-- Google Font -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Righteous&display=swap" rel="stylesheet">
@@ -99,7 +101,23 @@
 	</head>
 
 	<body>
-		
+		<!-- Websheet Template -->
+		<div data-websheet-template="winner-template">
+			<div data-websheet-on:loading>
+				<p class="mb-0 text-center text-white">Loading...</p>
+			</div>
+			<div data-websheet-on:error>
+				<p class="mb-0 text-center text-white">An error occured</p>
+			</div>
+			<div data-websheet-on:loaded>
+				<h3 class="text-white text-center mt-2 mb-0" data-websheet-text="name"></h3>
+				<p class="text-center mb-0"><a  target="_blank" target="_blank" class="text-white" data-websheet-text="website_link"></a></p>
+				<div class="d-flex justify-content-end">
+					<div class="badge-pts"><span data-websheet-text="point"></span> pts</div>
+				</div>
+			</div>
+		</div>
+		<!-- ./ Websheet Template -->
 		<!-- Share Button -->
 		<div id="share"></div>
 		
@@ -343,27 +361,33 @@
 		<!-- Back to top -->
 
 		<!-- javascript -->
-		<script>
+		<script src="../assets/js/jquery-1.10.2.min.js"></script>
+		<script src="../assets/js/bootstrap.bundle.min.js"></script>
+		<!-- Icons -->
+		<script src="../assets/js/feather.min.js"></script>
+		<!-- Main Js -->
+		<script src="../assets/js/app.js"></script>
+		<!-- Smooth Scroll -->
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+		<!-- AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<!-- Social JS -->
+		<script src="../assets/js/jssocials-1.4.0/jssocials.min.js"></script>
+		<!-- Scroll & Counter Up -->
+		<script src="../assets/js/waypoints.min.js"></script>
+		<script src="../assets/js/jquery.counterup.min.js"></script>
+		<!-- Custom JS -->
+		<script src="../assets/js/custom.js"></script>
+    <script>
 			function toLeaderBoard() {
 				document.getElementById('leaderboard').scrollIntoView({
 					behavior: 'smooth'
 				})
 			}
-      const base = 'https://re-cloud.id/leaderboard/'
+      const base = 'https://re-cloud.id/testing/'
 			// const base = 'http://localhost/re-cloud/leaderboard/'
 			const urlSheet = 'https://docs.google.com/spreadsheets/d/1foHFySLtQYSVRJ_tubHjZiTTMG9bC4EasxHcbmFOP98/edit#gid=0';
-			const searchKeyword = getUrlVars()["search"] !== '' ? getUrlVars()["search"] : null;
-			const url = encodeURI('https://re-cloud.id/leaderboard');
-			const text = "Leaderboard Re-Cloud Challenges Indonesia";
-
-			$('#search').val(searchKeyword ? decodeURI(searchKeyword) : null);
-			if(searchKeyword){
-				$('#clear').toggle();
-				query = `select * where LOWER(B) contains LOWER('${searchKeyword}') limit 5`;
-			} else {
-				query = `select * limit 16`;
-			}
-
 
 			/* Websheet Function Groups */
 			websheet('data-first-winner', {
@@ -442,73 +466,10 @@
 									
 			})
 			/* ./ Websheet Function Groups */
-
-			/* Seacrhing Function Groups */
-			$('#search').keyup(function(e){
-				if(e.keyCode == 13)
-				{
-					$('#clear').toggle();
-					const queryTxt = $('#search').val();
-					if(!queryTxt) {
-						alert('Nama belum diisi!')
-						return null;
-					}
-					window.location.href = `${base}?search=${queryTxt}`
-				}
-			})
-
 			
 			$('#clear').click('toggle', function(){
 				window.location.href = `${base}`
 			});
-			/* ./ Searching Function Groups */
-
-
-			function getUrlVars()
-			{
-				var vars = [], hash;
-				var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-				for(var i = 0; i < hashes.length; i++)
-				{
-					hash = hashes[i].split('=');
-					vars.push(hash[0]);
-					vars[hash[0]] = hash[1];
-				}
-				return vars;
-			}
-			
-			jsSocials.shares.telegram = {
-				logo: "fa fa-telegram",
-				shareUrl: `https://t.me/share/url?url=${url}&text=${text}`
-			};
-			jsSocials.shares.linkedin = {
-				logo: "fa fa-linkedin-square",
-				shareUrl: `https://www.linkedin.com/sharing/share-offsite/?url=${url}`
-			};
-			$("#share").jsSocials({
-				showLabel: false,
-				showCount: false,
-				shareIn: "popup",
-				shares: ["twitter", "facebook", "linkedin", "whatsapp", "telegram"]
-			});
 		</script>
-		<script src="../assets/js/jquery-1.10.2.min.js"></script>
-		<script src="../assets/js/bootstrap.bundle.min.js"></script>
-		<!-- Icons -->
-		<script src="../assets/js/feather.min.js"></script>
-		<!-- Main Js -->
-		<script src="../assets/js/app.js"></script>
-		<!-- Smooth Scroll -->
-		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-		<!-- AOS -->
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<!-- Social JS -->
-		<script src="../assets/js/jssocials-1.4.0/jssocials.min.js"></script>
-		<!-- Scroll & Counter Up -->
-		<script src="../assets/js/waypoints.min.js"></script>
-		<script src="../assets/js/jquery.counterup.min.js"></script>
-		<!-- Custom JS -->
-		<script src="../assets/js/custom.js"></script>
 	</body>
 </html>

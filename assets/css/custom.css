@@ -91,7 +91,7 @@ html {
 	background-size: auto 200px;
 	height: 230px;
 	animation: animatedBackground 10s linear infinite alternate;
-  top: -250px;
+  top: -200px;
   position: relative;
 }
 
