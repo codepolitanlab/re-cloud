@@ -17,7 +17,7 @@
 		
 		<!-- S:fb meta -->
 		<meta property="og:type" content="website" />
-		<meta property="og:image" content="https://re-cloud.id/../assets/images/re-cloud/about.jpg" />
+		<meta property="og:image" content="https://re-cloud.id/assets/images/re-cloud/about.jpg" />
 		<meta property="og:title" content="Re-Cloud Challenges Indonesia" />
 		<meta property="og:description" content="Yuk ikutan tuntaskan setiap tantangan Re-Cloud, dan menangkan hadiah dengan total $13,000! Daftar sekarang!">
 		<meta property="og:url" content="https://re-cloud.id" />
@@ -29,7 +29,7 @@
 		<meta name="twitter:creator" content="@re_cloudid">
 		<meta name="twitter:title" content="Re-Cloud Challenges Indonesia" />
 		<meta name="twitter:description" content="Yuk ikutan tuntaskan setiap tantangan Re-Cloud, dan menangkan hadiah dengan total $13,000! Daftar sekarang!" />
-		<meta name="twitter:image" content="https://re-cloud.id/../assets/images/re-cloud/about.jpg" />
+		<meta name="twitter:image" content="https://re-cloud.id/assets/images/re-cloud/about.jpg" />
 		<!-- E:tweeter card -->
 
 		
@@ -349,6 +349,148 @@
 					behavior: 'smooth'
 				})
 			}
+      const base = 'https://re-cloud.id/leaderboard/'
+			// const base = 'http://localhost/re-cloud/leaderboard/'
+			const urlSheet = 'https://docs.google.com/spreadsheets/d/1foHFySLtQYSVRJ_tubHjZiTTMG9bC4EasxHcbmFOP98/edit#gid=0';
+			const searchKeyword = getUrlVars()["search"] !== '' ? getUrlVars()["search"] : null;
+			const url = encodeURI('https://re-cloud.id/leaderboard');
+			const text = "Leaderboard Re-Cloud Challenges Indonesia";
+
+			$('#search').val(searchKeyword ? decodeURI(searchKeyword) : null);
+			if(searchKeyword){
+				$('#clear').toggle();
+				query = `select * where LOWER(B) contains LOWER('${searchKeyword}') limit 5`;
+			} else {
+				query = `select * limit 16`;
+			}
+
+
+			/* Websheet Function Groups */
+			websheet('data-first-winner', {
+									
+				// URL of the spreadsheet
+				url: urlSheet,
+									
+				// Spreadsheet tab name
+				sheet: 'List Leaderboard',
+				caching: false,  // disable caching
+				query: `select * where LOWER(E) contains LOWER('../assets/images/re-cloud/1.png') LIMIT 1`
+									
+			})
+			
+			websheet('data-second-winner', {
+									
+				// URL of the spreadsheet
+				url: urlSheet,
+									
+				// Spreadsheet tab name
+				sheet: 'List Leaderboard',
+				caching: false,  // disable caching
+				query: `select * where LOWER(E) contains LOWER('../assets/images/re-cloud/2.png') LIMIT 2`
+									
+			})
+			
+			websheet('data-third-winner', {
+									
+				// URL of the spreadsheet
+				url: urlSheet,
+									
+				// Spreadsheet tab name
+				sheet: 'List Leaderboard',
+				caching: false,  // disable caching
+				query: `select * where LOWER(E) contains LOWER('../assets/images/re-cloud/3.png') LIMIT 3`
+									
+			})
+
+			websheet('data-leaderboard', {
+									
+				// URL of the spreadsheet
+				url: urlSheet,
+									
+				// Spreadsheet tab name
+				sheet: 'List Leaderboard',
+				caching: false,  // disable caching
+				query,
+				aliases: {
+					'Is First?': row => row['rank'].value === 1,
+					'Is Label?': row => row['label_img'].value !== '',
+				}
+									
+			})
+
+			websheet('data-count', {
+									
+				// URL of the spreadsheet
+				url: urlSheet,
+									
+				// Spreadsheet tab name
+				sheet: 'Count Leaderboard',
+				caching: false,  // disable caching
+									
+			})
+
+
+			websheet('data-winner', {
+									
+				// URL of the spreadsheet
+				url: urlSheet,
+									
+				// Spreadsheet tab name
+				sheet: 'List Leaderboard',
+				query: `select * limit 3`,
+				caching: false,  // disable caching
+									
+			})
+			/* ./ Websheet Function Groups */
+
+			/* Seacrhing Function Groups */
+			$('#search').keyup(function(e){
+				if(e.keyCode == 13)
+				{
+					$('#clear').toggle();
+					const queryTxt = $('#search').val();
+					if(!queryTxt) {
+						alert('Nama belum diisi!')
+						return null;
+					}
+					window.location.href = `${base}?search=${queryTxt}`
+				}
+			})
+
+			
+			$('#clear').click('toggle', function(){
+				window.location.href = `${base}`
+			});
+			/* ./ Searching Function Groups */
+
+
+			function getUrlVars()
+			{
+				var vars = [], hash;
+				var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+				for(var i = 0; i < hashes.length; i++)
+				{
+					hash = hashes[i].split('=');
+					vars.push(hash[0]);
+					vars[hash[0]] = hash[1];
+				}
+				return vars;
+			}
+			
+			jsSocials.shares.telegram = {
+				logo: "fa fa-telegram",
+				shareUrl: `https://t.me/share/url?url=${url}&text=${text}`
+			};
+			jsSocials.shares.linkedin = {
+				logo: "fa fa-linkedin-square",
+				shareUrl: `https://www.linkedin.com/sharing/share-offsite/?url=${url}`
+			};
+			$("#share").jsSocials({
+				showLabel: false,
+				showCount: false,
+				shareIn: "popup",
+				shares: ["twitter", "facebook", "linkedin", "whatsapp", "telegram"]
+			});
 		</script>
 		<script src="../assets/js/jquery-1.10.2.min.js"></script>
 		<script src="../assets/js/bootstrap.bundle.min.js"></script>
