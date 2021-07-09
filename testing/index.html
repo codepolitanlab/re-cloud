@@ -378,6 +378,7 @@
 		<script src="../assets/js/waypoints.min.js"></script>
 		<script src="../assets/js/jquery.counterup.min.js"></script>
 		<!-- Custom JS -->
+		<script src="../assets/js/custom.js"></script>
     <script>
 			function toLeaderBoard() {
 				document.getElementById('leaderboard').scrollIntoView({
@@ -388,8 +389,6 @@
 			// const base = 'http://localhost/re-cloud/leaderboard/'
 			const urlSheet = 'https://docs.google.com/spreadsheets/d/1foHFySLtQYSVRJ_tubHjZiTTMG9bC4EasxHcbmFOP98/edit#gid=0';
       const searchKeyword = getUrlVars()["search"] !== '' ? getUrlVars()["search"] : null;
-			const url = encodeURI('https://re-cloud.id/leaderboard');
-			const text = "Leaderboard Re-Cloud Challenges Indonesia";
 
 			$('#search').val(searchKeyword ? decodeURI(searchKeyword) : null);
 			if(searchKeyword){
