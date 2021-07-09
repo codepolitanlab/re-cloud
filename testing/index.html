@@ -101,23 +101,7 @@
 	</head>
 
 	<body>
-		<!-- Websheet Template -->
-		<div data-websheet-template="winner-template">
-			<div data-websheet-on:loading>
-				<p class="mb-0 text-center text-white">Loading...</p>
-			</div>
-			<div data-websheet-on:error>
-				<p class="mb-0 text-center text-white">An error occured</p>
-			</div>
-			<div data-websheet-on:loaded>
-				<h3 class="text-white text-center mt-2 mb-0" data-websheet-text="name"></h3>
-				<p class="text-center mb-0"><a  target="_blank" target="_blank" class="text-white" data-websheet-text="website_link"></a></p>
-				<div class="d-flex justify-content-end">
-					<div class="badge-pts"><span data-websheet-text="point"></span> pts</div>
-				</div>
-			</div>
-		</div>
-		<!-- ./ Websheet Template -->
+		
 		<!-- Share Button -->
 		<div id="share"></div>
 		
@@ -387,16 +371,8 @@
 			}
       const base = 'https://re-cloud.id/testing/'
 			// const base = 'http://localhost/re-cloud/leaderboard/'
-			const urlSheet = 'https://docs.google.com/spreadsheets/d/1mvFh3JLFIle4VD5j4JBwXTeLgCAx_9gXCphSNCrpOtk/edit#gid=0';
-      const searchKeyword = getUrlVars()["search"] !== '' ? getUrlVars()["search"] : null;
+			const urlSheet = 'https://docs.google.com/spreadsheets/d/1foHFySLtQYSVRJ_tubHjZiTTMG9bC4EasxHcbmFOP98/edit#gid=0';
 
-			$('#search').val(searchKeyword ? decodeURI(searchKeyword) : null);
-			if(searchKeyword){
-				$('#clear').toggle();
-				query = `select * where LOWER(B) contains LOWER('${searchKeyword}') limit 5`;
-			} else {
-				query = `select * limit 16`;
-			}
 			/* Websheet Function Groups */
 			websheet('data-first-winner', {
 									
@@ -475,31 +451,6 @@
 			})
 			/* ./ Websheet Function Groups */
 			
-			/* Seacrhing Function Groups */
-			$('#search').keyup(function(e){
-				if(e.keyCode == 13)
-				{
-					$('#clear').toggle();
-					const queryTxt = $('#search').val();
-					if(!queryTxt) {
-						alert('Nama belum diisi!')
-						return null;
-					}
-					window.location.href = `${base}?search=${queryTxt}`
-				}
-			})
-			function getUrlVars()
-			{
-				var vars = [], hash;
-				var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-				for(var i = 0; i < hashes.length; i++)
-				{
-					hash = hashes[i].split('=');
-					vars.push(hash[0]);
-					vars[hash[0]] = hash[1];
-				}
-				return vars;
-			}
 			$('#clear').click('toggle', function(){
 				window.location.href = `${base}`
 			});
