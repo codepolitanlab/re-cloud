@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -79,6 +83,16 @@
 	background-size: auto 200px;
 	height: 200px;
 	animation: animatedBackground 10s linear infinite alternate;
+}
+.bg-image-registration-updated {
+	background-image: url('../images/re-cloud/cloud-daftar.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 200px;
+	height: 230px;
+	animation: animatedBackground 10s linear infinite alternate;
+  top: -250px;
+  position: relative;
 }
 
 .bg-light-grey {

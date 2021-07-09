@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta name="robots" content="all">
+
+		<title>Re-Cloud Challenges Indonesia - “Enabling Happiness and Productivity at Home #StayAtHome”</title>
+		<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+
+		<!-- Primary Meta Tags -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Re-Cloud Challenges Indonesia, Virtual Cloud Challenges terbesar se-Indonesia di tahun 2021 ini. Yuk ikutan tuntaskan setiap tantangannya untuk memenangkan hadiah dengan total $13,000! Daftar sekarang juga https://re-cloud.id">
+		<meta name="keywords" content="Challenges, 2021, Rewind, Juara, Pekerjaan, Hadiah, Re-Cloud Challenges, Indonesia, AlibabaCloud, Codepolitan, Virtual Cloud Challenges">
+		<!-- ./ Primary Meta Tags -->
+		
+		<!-- S:fb meta -->
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="https://re-cloud.id/assets/images/re-cloud/about.jpg" />
+		<meta property="og:title" content="Re-Cloud Challenges Indonesia" />
+		<meta property="og:description" content="Yuk ikutan tuntaskan setiap tantangan Re-Cloud, dan menangkan hadiah dengan total $13,000! Daftar sekarang!">
+		<meta property="og:url" content="https://re-cloud.id" />
+		<meta property="og:site_name" content="re-cloud.id" />
+
+		<!-- S:tweeter card -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="https://re-cloud.id/" />
+		<meta name="twitter:creator" content="@re_cloudid">
+		<meta name="twitter:title" content="Re-Cloud Challenges Indonesia" />
+		<meta name="twitter:description" content="Yuk ikutan tuntaskan setiap tantangan Re-Cloud, dan menangkan hadiah dengan total $13,000! Daftar sekarang!" />
+		<meta name="twitter:image" content="https://re-cloud.id/assets/images/re-cloud/about.jpg" />
+		<!-- E:tweeter card -->
+
+		
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '496143660723921');
+			fbq('track', 'PageView')
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=496143660723921&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '347646795880654');
+			fbq('track', 'PageView')
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=347646795880654&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-CG1XS7DY5B"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-CG1XS7DY5B');
+		</script>
+
+		<!-- Bootstrap -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<!-- Icons -->
+		<link href="assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.3/css/line.css">
+		<!-- Main Css -->
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+		<link href="assets/css/colors/orange.css" rel="stylesheet" id="color-opt">
+		<!-- Social JS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials.css">
+		<link rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials-theme-flat.css">
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Righteous&display=swap" rel="stylesheet">
+		<!-- Animate CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/custom.css">
+	</head>
+
+	<body>
+		
+		<!-- Share Button -->
+		<div id="share"></div>
+		
+		<!-- Navbar Start -->
+		<header id="topnav" class="defaultscroll sticky">
+			<div class="container">
+				<!-- Logo container-->
+				<div>
+					<a class="logo" href="https://re-cloud.id/">
+						<img src="assets/images/re-cloud/re-cloud_white.png" class="l-light" alt="re-cloud" height="30">
+						<img src="assets/images/re-cloud/re-cloud.png" class="l-dark" alt="re-cloud" height="30">
+					</a>
+				</div>
+				<div class="buy-button logo d-none d-md-block">
+					<a onclick="toLeaderBoard()" class="btn btn-light l-light">LEADERBOARD</a>
+					<a onclick="toLeaderBoard()" class="btn btn-primary l-dark">LEADERBOARD</a>
+				</div>
+				<!-- End Logo container-->
+				<div class="menu-extras">
+					<div class="menu-item">
+						<!-- Mobile menu toggle-->
+						<a class="navbar-toggle">
+							<div class="lines">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</a>
+						<!-- End mobile menu toggle-->
+					</div>
+				</div>
+
+				<div id="navigation">
+					<!-- Navigation Menu-->
+					<div class="d-md-none m-4 text-center">
+						<a onclick="toLeaderBoard()" class="btn btn-primary">LIHAT LEADERBOARD</a>
+					</div>
+					<!-- <ul class="navigation-menu justify-content-end nav-light">
+						<li><a data-scroll href="#misi">Misi</a></li>
+						<li><a data-scroll href="#hadiah">Hadiah</a></li>
+						<li><a data-scroll href="#kategori-submission">Submission</a></li>
+						<li><a data-scroll href="#detail-kompetisi">Kompetisi</a></li>
+						<li><a data-scroll href="#timeline">Timeline</a></li>
+						<li><a data-scroll href="#faq">FAQ</a></li>
+					</ul> -->
+				</div><!--end navigation-->
+			</div><!--end container-->
+		</header><!--end header-->
+		<!-- Navbar End -->
+
+		<!-- Jumbotron Start -->
+		<section class="pt-4 border-0 bg-registration">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-8 offset-md-2" style="z-index: 10;">
+						<h1 class="text-center heading mb-3 text-white text-shadow mt-100">SELAMAT KEPADA PEMENANG RE-CLOUD CHALLENGES INDONESIA</h1>
+						<h3 class="text-center text-white text-shadow mb-100">Terimakasih telah berpartisipasi dan berkembang bersama Re-Cloud Challenges Indonesia 2021. <br> Sampai jumpa di Re-Cloud berikutnya!</h3>
+						<div class="text-center mb-100">
+							<a class="btn btn-primary btn-lg animate__animated animate__pulse animate__infinite" onclick="toLeaderBoard()">LIHAT LEADERBOARD</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pt-4 border-0 bg-registration bg-image-registration-updated">
+		</section>
+    <!--end section-->
+
+		<div style="position: relative; top: -200px">
+			<!-- Brands Header Start -->
+			<section class="pb-2">
+				<div class="container my-4">
+					<div class="row">
+						<div class="col-12">
+							<p class="text-center text-muted mb-0">Organized by:</p>
+						</div>
+						<div class="col-12 d-flex align-items-center justify-content-center">
+								<a class="d-block p-4" href="https://int.alibabacloud.com/m/1000229843/" target="_blank" rel="noopener noreferrer">
+									<img class="img-fluid" src="assets/images/alibaba-cloud-small.png" alt="alibaba-cloud-small.png">
+								</a>
+								<a class="d-block p-4" href="https://www.codepolitan.com/" target="_blank" rel="noopener noreferrer">
+									<img class="img-fluid" src="assets/images/codepolitan_logo-small.png" alt="codepolitan_logo-small.png">
+								</a>
+						</div>
+					</div>
+				</div><!--end container-->
+			</section><!--end section-->
+			<!-- Brands Header End -->
+			<!-- Megatron Start -->
+			<section id="leaderboard" class="pt-4 pb-2 border-0 bg-rewards pyro">
+				<div class="before"></div>
+				<div class="after"></div>
+				<div class="container mt-100">
+					<div class="row align-items-center">
+						<div class="col-12 col-lg-6 offset-lg-3 mb-3">
+							<div class="title-heading mt-4 text-center">
+								<h1 class="heading mb-3 text-primary text-shadow">Selamat Bagi Pemenang <br> Re-Cloud Challenges Indonesia</h1>
+							</div>
+						</div><!--end col-->
+					</div><!--end row-->
+					<div class="row d-none d-lg-flex">
+						<div class="col-md-4">
+							<div class="text-center mb-3">
+								<img src="./assets/images/re-cloud/1.png" alt="first winner icon">
+							</div>
+							<div class="bg-primary p-2 rounded shadow mb-3" data-websheet="data-first-winner">
+								<div data-websheet-render="winner-template"></div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="text-center mb-3">
+								<img src="./assets/images/re-cloud/2.png" alt="second winner icon">
+							</div>
+							<div class="bg-primary p-2 rounded shadow mb-3" data-websheet="data-second-winner">
+								<div data-websheet-render="winner-template"></div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="text-center mb-3">
+								<img src="./assets/images/re-cloud/3.png" alt="second winner icon">
+							</div>
+							<div class="bg-primary p-2 rounded shadow mb-3" data-websheet="data-third-winner">
+								<div data-websheet-render="winner-template"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row d-lg-none">
+						<div class="col-md-12 text-center">
+							<div class="text-center">
+								<a href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer"><img src="./assets/images/alibaba-cloud.png" alt="alibaba-cloud.png" height="20px" data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate"></a>
+								
+								<br>
+								<img class="img-fluid aos-init aos-animate" src="./assets/images/re-cloud/juara.png" alt="juara.png" data-aos="fade-up" data-aos-delay="350">
+							</div>
+						</div>
+					</div>
+				</div><!--end container-->
+			</section><!--end section-->
+			<!-- Megatron End -->
+
+			<!-- Leaderboard List Header Start -->
+			<section class="pb-2 mt-5">
+				<div class="container my-4">
+					<div class="row">
+						<div class="col-12">
+							<h2 class="text-center mb-5 mt-3">Top 16 Leaderboard</h2>
+						</div>
+						<div class="col-12">
+							<div data-websheet="data-leaderboard">
+								<div class="p-3 rounded shadow-sm border mb-3">
+									<div data-websheet-on:loading>
+										<p class="mb-0">Loading...</p>
+									</div>
+									<div data-websheet-on:error>
+										<p class="mb-0">An error occured</p>
+									</div>
+									<div data-websheet-on:loaded>
+										<div class="row justify-content-between align-items-center">
+											<div class="col-md-10">
+												<div class="text-right d-md-none text-primary">
+													<i data-websheet-if="Is First?" class="fa fa-trophy"></i>
+														<span data-websheet-text="point"></span> pts
+												</div>
+												<div class="d-flex align-items-center">
+													<h2 class="mb-0 mr-5 text-muted-50">#<span data-websheet-text="rank"></span></h2>
+													<div>
+														<h4 class="title mb-0">
+															<span data-websheet-if="Is Label?">
+																<img data-websheet-bind:src="label_img" width="20px" alt="">
+															</span>
+															<span data-websheet-text="name"></span>
+														</h4>
+														<a data-websheet-bind:href="website_link" target="_blank" class="text-secondary mb-0" data-websheet-text="website_link"></a>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-2 d-none d-md-block">
+												<h4 class="mb-0 text-primary">
+													<span data-websheet-text="point"></span> pts
+												</h4>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!--end container-->
+			</section><!--end section-->
+			<!-- Leaderboard List Header End -->
+		</div>
+		
+
+		<!-- Footer Start -->
+		<footer class="footer bg-white pb-0 mb-4">
+				<div class="container pb-4">
+					<div class="row pb-4">
+							<div class="col-lg-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+								<h1 class="heading text-primary">Talk to us</h1>
+								<p>
+									<strong>Email</strong>
+									<br>
+									<a href="mailto:info@codepolitan.com" class="text-primary">info@codepolitan.com</a>
+								</p>
+								<p>
+									<strong>Phone</strong>
+									<br>
+									<a href="tel:+628999488990" class="text-primary">+6289-9948-8990</a>
+								</p>
+								<p class="mb-0">
+									<strong>Social Media</strong>
+								</p>
+								<ul class="list-unstyled social-icon social mb-0">
+									<li class="list-inline-item">
+										<a href="https://www.instagram.com/re_cloud.id/" target="_blank" class="rounded">
+											<i data-feather="instagram" class="fea icon-sm"></i>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a href="https://twitter.com/re_cloudid" target="_blank" class="rounded">
+											<i data-feather="twitter" class="fea icon-sm"></i>
+										</a>
+									</li>
+							</ul>
+							</div><!--end col-->
+							<div class="col-lg-6 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+								<a class="logo-footer" href="https://re-cloud.id">
+									<img src="assets/images/re-cloud/re-cloud.png" alt="re-cloud" height="30">
+								</a>
+								<p class="mt-4">
+									<strong>Re-Cloud Challenge Indonesia</strong> adalah challenges pertama dari <a href="https://int.alibabacloud.com/m/1000229842/" target="_blank" rel="noopener noreferrer" class="text-primary">AlibabaCloud di Indonesia</a> dengan misi edukasi masyarakat agar terbiasa menggunakan Layanan Awan (Cloud Service) dan juga sertifikasi yang disediakan.
+								</p>
+							</div><!--end col-->
+					</div><!--end row-->
+				</div><!--end container-->
+		</footer><!--end footer-->
+		<!-- Footer End -->
+
+		<!-- Back to top -->
+		<a href="#" class="btn btn-icon btn-primary back-to-top mb-4"><i data-feather="arrow-up" class="icons"></i></a>
+		<!-- Back to top -->
+
+		<!-- javascript -->
+		<script>
+			function toLeaderBoard() {
+				document.getElementById('leaderboard').scrollIntoView({
+					behavior: 'smooth'
+				})
+			}
+		</script>
+		<script src="assets/js/jquery-1.10.2.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<!-- Icons -->
+		<script src="assets/js/feather.min.js"></script>
+		<!-- Main Js -->
+		<script src="assets/js/app.js"></script>
+		<!-- Smooth Scroll -->
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+		<!-- AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<!-- Social JS -->
+		<script src="assets/js/jssocials-1.4.0/jssocials.min.js"></script>
+		<!-- Scroll & Counter Up -->
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<!-- Custom JS -->
+		<script src="assets/js/custom.js"></script>
+	</body>
+</html>
